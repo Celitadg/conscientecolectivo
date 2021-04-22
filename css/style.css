@@ -1,0 +1,127 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Righteous", cursive;
+  color: #E9725D;
+  text-align: center; }
+
+h3.frase {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 1.5rem; }
+
+p {
+  font-family: "Raleway", sans-serif; }
+
+a {
+  color: #E9725D; }
+  a:hover {
+    color: #5D8B80; }
+  a.boton {
+    background-color: #EFEBC8;
+    border-radius: 20%;
+    border: solid #5D8B80; }
+
+ul.trabajo {
+  list-style-type: none; }
+
+li.menu {
+  border: solid;
+  box-sizing: content-box;
+  width: 25%;
+  text-align: center; }
+  @media (max-width: 768px) {
+    li.menu {
+      width: 100%; } }
+
+li.accion {
+  background-color: #1B4D41; }
+
+li.desarrollo {
+  background-color: #2D575C; }
+
+li.comunicacion {
+  background-color: #5D8B80; }
+
+li.politica {
+  background-color: #41B28E; }
+
+div.proyectos {
+  display: flex; }
+  div.proyectos .item1 {
+    padding-right: 3rem; }
+
+div.img {
+  text-align: center; }
+
+img.redonda {
+  border-radius: 50%; }
+
+img.py-home {
+  width: 300px; }
+  img.py-home:hover {
+    width: 310px;
+    opacity: 0.8; }
+
+@media (max-width: 575px) {
+  img.proyectos {
+    max-width: 320px; } }
+
+@media (max-width: 767px) {
+  img.proyectos {
+    max-width: 540px; } }
+
+@media (max-width: 991px) {
+  img.proyectos {
+    max-width: 720px; } }
+
+@media (max-width: 1199px) {
+  img.proyectos {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  img.proyectos {
+    max-width: 1140px; } }
+
+nav {
+  font-family: "Righteous", cursive;
+  color: #E9725D;
+  font-size: 1.15rem; }
+  nav .dropdown-item {
+    color: #5D8B80;
+    font-family: "Raleway", sans-serif; }
+  nav img:hover {
+    width: 72%; }
+
+footer {
+  background-color: #E9725D;
+  padding-top: 2rem; }
+  footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    footer nav a {
+      padding: 0.7rem 1.5rem 2rem 1.5rem; }
+      footer nav a:hover {
+        opacity: 0.5; }
+  footer h6 {
+    color: #EFEBC8;
+    text-transform: uppercase;
+    font-size: 2rem; }
+
+main.proyectos {
+  background-color: #EFEBC8;
+  color: #E9725D; }
+
+section {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  section iframe {
+    border-radius: 2%; }
+  section div.proyectos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; }
+  section.iframe {
+    background-color: #E9725D;
+    padding: 3rem; }

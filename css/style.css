@@ -143,6 +143,8 @@ nav {
   font-family: "Righteous", cursive;
   color: #E9725D;
   font-size: 1rem; }
+  nav.navbar {
+    background-color: #fff; }
   nav .dropdown-item {
     color: #5D8B80;
     font-family: "Raleway", sans-serif; }

@@ -6,6 +6,7 @@ $verde-claro: #41B28E;
 $celeste: #98D4E8;
 $naranja: #E49925;
 $gris-claro: #EFEBC8;
+$blanco: #fff;
 
 $sub-destacada: 'Righteous', cursive;
 $general: 'Raleway', sans-serif;
@@ -180,6 +181,9 @@ nav{
     font-family: $sub-destacada;
     color: $primary;
     font-size: 1rem;
+    &.navbar{
+        background-color: $blanco;
+    }
     .dropdown-item{
         color: $gris-oscuro;
         font-family: $general;

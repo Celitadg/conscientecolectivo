@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
+h1{
+    text-transform: uppercase;
+}
+
 h3{
     &.frase{
         font-size: 3.5rem;
@@ -26,7 +30,6 @@ h3{
 
 p{
     font-family: $general;
-   
 }
 
 a{
@@ -36,9 +39,8 @@ a{
     }
     &.boton{
         background-color: $gris-claro;
-        border-radius: 20%;
-        border: solid $gris-oscuro;
-
+        border-radius: 10px;
+        border: solid;
     }
 }
 
@@ -83,9 +85,68 @@ div{
     &.img{
         text-align: center;
     }
+    &.valores{
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        justify-content: space-evenly;
+        @media (max-width:768px){
+            grid-template-columns: repeat(2, 35%);
+        }
+        @media (max-width:400px) {
+            display: block;
+        }
+    }
+    &.valores-inf{
+        display: grid;
+        grid-template-columns: repeat(2, 30%);
+        justify-content: space-evenly;
+        @media (max-width:400px) {
+            display: block;
+        }
+    }
+    &.img-quienes-somos{
+        text-align: center;
+    }
+    &.capacitadores{
+        display: grid;
+        grid-template-columns: repeat(8, auto);
+        p{
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        h5{
+            font-size: 1rem;
+        }
+        img{
+            border-radius: 50%;
+        }
+        @media (max-width:992px){
+            grid-template-columns:repeat(6, auto);
+        }
+        @media (max-width:768px){
+            grid-template-columns:repeat(5, auto);
+        }
+        @media (max-width:576px){
+            grid-template-columns:repeat(4, auto);
+        }
+        @media (max-width:470px){
+            grid-template-columns:repeat(2, auto);
+        }
+        @media (max-width:350px){
+            grid-template-columns:repeat(1, auto);
+        }
+    }
+    &.img-capacitadores{
+        text-align: center;
+    }
 }
 
 img{
+    &.logo-navbar{
+        @media (max-width:371px){
+            width: 150px;
+        }
+    }
     &.redonda{
         border-radius: 50%;
     }
@@ -118,13 +179,13 @@ img{
 nav{
     font-family: $sub-destacada;
     color: $primary;
-    font-size: 1.15rem;
+    font-size: 1rem;
     .dropdown-item{
         color: $gris-oscuro;
         font-family: $general;
     }
     img:hover{
-        width: 72%;
+        width: 255px;
     }
 }
 
@@ -134,9 +195,10 @@ footer{
     nav{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         a{
-            padding: 0.7rem 1.5rem 2rem 1.5rem;
+            padding: 0.7rem 1.2rem 2rem 1.2rem;
             &:hover{
                 opacity: 0.5;
             }
@@ -153,6 +215,9 @@ main{
     &.proyectos{
         background-color: $gris-claro;
         color: $primary;
+    }
+    &.prueba{
+        height: 75vh;
     }
 }
 
@@ -173,8 +238,72 @@ section{
         background-color: $primary;
         padding: 3rem;
     }
+    &.quienes-somos{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin:1rem 2rem 1rem 2rem;
+        .item-derecha{
+            padding-left: 3rem;
+        }
+        .item-izquierda{
+            padding-right: 3rem;
+        }
+        @media (max-width:992px){
+            img{
+                width: 350px;
+            }
+        }
+        @media (max-width:768px){
+            flex-direction: column;
+            .img-quienes-somos{
+                order: 1;
+            }
+            img{
+                max-width: 500px;
+            }
+            .item-derecha{
+                padding-left: 0rem;
+            }
+            .item-izquierda{
+                padding-right: 0rem;
+            }
+        }
+        @media (max-width:576px){
+            margin: 0;
+        }
+    }
 }
 
+article{
+    &#diferencial{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        p{
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        h4{
+            font-size: 1.3rem;
+        }
+    }
+    &#quienes-somos{
+        background-color: $gris-claro;
+        padding-top:2rem;
+        padding-bottom: 2rem;
+        h1{
+            margin-bottom: 2rem;
+        }
+        h3{
+            margin-bottom: 2rem;
+        }
+    }
+    &#capacitadores{
+        background-color: $gris-claro;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
 
 
 

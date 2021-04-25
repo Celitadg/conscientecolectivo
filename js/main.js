@@ -1,5 +1,6 @@
 $(".trabajo-territorial").click(
-    function(){
+    function(e){
+        e.preventDefault();
         $("#trabajo-territorial").show();
         $("#logistica").hide();
         $("#recaudador-fondos").hide();
@@ -12,7 +13,8 @@ $(".trabajo-territorial").click(
     }
 );
 $(".logistica").click(
-    function(){
+    function(e){
+        e.preventDefault();
         $("#trabajo-territorial").hide();
         $("#logistica").show();
         $("#recaudador-fondos").hide();
@@ -24,7 +26,8 @@ $(".logistica").click(
     }
 );
 $(".recaudador-fondos").click(
-    function(){
+    function(e){
+        e.preventDefault();
         $("#trabajo-territorial").hide();
         $("#logistica").hide();
         $("#recaudador-fondos").show();
@@ -36,7 +39,8 @@ $(".recaudador-fondos").click(
     }
 );
 $(".community-manager").click(
-    function(){
+    function(e){
+        e.preventDefault();
         $("#trabajo-territorial").hide();
         $("#logistica").hide();
         $("#recaudador-fondos").hide();
@@ -48,7 +52,8 @@ $(".community-manager").click(
     }
 );
 $(".editor-audiovisual").click(
-    function(){
+    function(e){
+        e.preventDefault();
         $("#trabajo-territorial").hide();
         $("#logistica").hide();
         $("#recaudador-fondos").hide();
@@ -60,7 +65,8 @@ $(".editor-audiovisual").click(
     }
 );
 $(".diseniador-grafico").click(
-    function(){
+    function(e){
+        e.preventDefault();
         $("#trabajo-territorial").hide();
         $("#logistica").hide();
         $("#recaudador-fondos").hide();
@@ -72,7 +78,8 @@ $(".diseniador-grafico").click(
     }
 );
 $(".asistente-twitter").click(
-    function(){
+    function(e){
+        e.preventDefault();
         $("#trabajo-territorial").hide();
         $("#logistica").hide();
         $("#recaudador-fondos").hide();
@@ -84,7 +91,8 @@ $(".asistente-twitter").click(
     }
 );
 $(".investigador-politico").click(
-    function(){
+    function(e){
+        e.preventDefault();
         $("#trabajo-territorial").hide();
         $("#logistica").hide();
         $("#recaudador-fondos").hide();

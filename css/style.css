@@ -46,6 +46,7 @@ li.menu {
   border: solid;
   border-radius: 10px;
   height: 3rem;
+  width: 15rem;
   box-sizing: content-box;
   text-align: center; }
   @media (max-width: 768px) {

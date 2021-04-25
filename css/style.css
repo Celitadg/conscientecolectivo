@@ -66,7 +66,6 @@ li.politica {
   background-color: #41B28E; }
 
 div.proyectos {
-  margin-top: 9rem;
   margin-bottom: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -209,6 +208,9 @@ main.proyectos {
 main.prueba {
   height: 75vh; }
 
+main.biblioteca {
+  margin-top: 9rem; }
+
 section {
   margin-top: 3rem;
   margin-bottom: 3rem; }
@@ -249,6 +251,30 @@ section {
     @media (max-width: 576px) {
       section.quienes-somos {
         margin: 0; } }
+  section.secciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    section.secciones div {
+      margin-right: 1rem;
+      margin-bottom: 2rem;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background-color: #E49925;
+      text-align: center;
+      position: relative; }
+      section.secciones div a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        color: #1B4D41;
+        text-transform: uppercase;
+        font-weight: 700; }
+        section.secciones div a:hover {
+          text-decoration: none;
+          color: #41B28E; }
 
 article#diferencial {
   padding-top: 2rem;
@@ -268,8 +294,31 @@ article#quienes-somos {
   article#quienes-somos h3 {
     margin-bottom: 2rem; }
 
+article#etiquetado h3 {
+  margin-top: 2rem; }
+
+article#etiquetado ol {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 2rem;
+  line-height: 2rem; }
+
 article.gestion-menstrual {
-  background-color: #EFEBC8; }
+  background-color: #EFEBC8;
+  padding-top: 3rem;
+  padding-bottom: 2rem; }
+  article.gestion-menstrual h3 {
+    margin-top: 2rem; }
+  article.gestion-menstrual ol {
+    font-family: "Raleway", sans-serif;
+    line-height: 2rem; }
+
+article#accion-barrial {
+  padding-top: 3rem;
+  padding-bottom: 1rem; }
+  article#accion-barrial h3 {
+    margin-top: 2rem; }
+  article#accion-barrial p {
+    line-height: 2rem; }
 
 article#logistica, article#recaudador-fondos, article#community-manager, article#editor-audiovisual, article#diseniador-grafico, article#asistente-twitter, article#investigador-politico {
   display: none; }

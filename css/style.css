@@ -80,7 +80,8 @@ div.img-index1 {
   width: 300px;
   height: 300px;
   background-image: url(../img/6.png);
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin-top: 2rem; }
   div.img-index1:hover div.img-info {
     visibility: visible; }
 
@@ -88,7 +89,8 @@ div.img-index2 {
   width: 300px;
   height: 300px;
   background-image: url(../img/7m.jpg);
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin-top: 2rem; }
   div.img-index2:hover div.img-info {
     visibility: visible; }
 
@@ -96,7 +98,8 @@ div.img-index3 {
   width: 300px;
   height: 300px;
   background-image: url(../img/8.jpg);
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin-top: 2rem; }
   div.img-index3:hover div.img-info {
     visibility: visible; }
 

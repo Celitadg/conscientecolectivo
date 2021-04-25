@@ -76,20 +76,49 @@ div.valores {
 div.img-quienes-somos {
   text-align: center; }
 
+div.img-index1 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/6.png);
+  border-radius: 50%; }
+  div.img-index1:hover div.img-info {
+    visibility: visible; }
+
+div.img-index2 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/7m.jpg);
+  border-radius: 50%; }
+  div.img-index2:hover div.img-info {
+    visibility: visible; }
+
+div.img-index3 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/8.jpg);
+  border-radius: 50%; }
+  div.img-index3:hover div.img-info {
+    visibility: visible; }
+
+div.img-info {
+  width: 300px;
+  height: 300px;
+  background-color: #2D575C;
+  opacity: 0.9;
+  border-radius: 50%;
+  visibility: hidden;
+  text-transform: uppercase; }
+  div.img-info a {
+    text-decoration: none; }
+  div.img-info h6 {
+    font-size: 1.7rem;
+    padding-top: 45%; }
+
 img.logo-navbar {
   width: 250px; }
   @media (max-width: 371px) {
     img.logo-navbar {
       width: 150px; } }
-
-img.redonda {
-  border-radius: 50%; }
-
-img.py-home {
-  width: 300px; }
-  img.py-home:hover {
-    width: 310px;
-    opacity: 0.8; }
 
 @media (max-width: 575px) {
   img.proyectos {

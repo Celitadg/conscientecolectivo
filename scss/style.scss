@@ -110,6 +110,55 @@ div{
     &.img-quienes-somos{
         text-align: center;
     }
+    &.img-index1{
+        width: 300px;
+        height: 300px;
+        background-image: url(../img/6.png);
+        border-radius: 50%;
+        &:hover{
+            div.img-info{
+                visibility: visible;
+            }
+        }
+    }
+    &.img-index2{
+        width: 300px;
+        height: 300px;
+        background-image: url(../img/7m.jpg);
+        border-radius: 50%;
+        &:hover{
+            div.img-info{
+                visibility: visible;
+            }
+        }
+    }
+    &.img-index3{
+        width: 300px;
+        height: 300px;
+        background-image: url(../img/8.jpg);
+        border-radius: 50%;
+        &:hover{
+            div.img-info{
+                visibility: visible;
+            }
+        }
+    }
+    &.img-info{
+        width: 300px;
+        height: 300px;
+        background-color: $azul;
+        opacity: 0.9;
+        border-radius: 50%;
+        visibility: hidden;
+        text-transform: uppercase;
+        a{
+            text-decoration: none;
+        }
+        h6{
+            font-size: 1.7rem;
+            padding-top: 45%;
+        }
+    }
 }
 
 img{
@@ -117,16 +166,6 @@ img{
         width: 250px;
         @media (max-width:371px){
             width: 150px;
-        }
-    }
-    &.redonda{
-        border-radius: 50%;
-    }
-    &.py-home{
-        width: 300px;
-        &:hover{
-            width: 310px;
-            opacity: 0.8;
         }
     }
     &.proyectos{

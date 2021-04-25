@@ -39,7 +39,8 @@ a {
       color: #E9725D; }
 
 ul.trabajo {
-  list-style-type: none; }
+  list-style-type: none;
+  padding: 0; }
 
 li.menu {
   border: solid;

@@ -32,14 +32,20 @@ a {
     background-color: #EFEBC8;
     border-radius: 10px;
     border: solid; }
+  a.busqueda {
+    color: #EFEBC8; }
+    a.busqueda:hover {
+      text-decoration: none;
+      color: #E9725D; }
 
 ul.trabajo {
   list-style-type: none; }
 
 li.menu {
   border: solid;
+  border-radius: 10px;
+  height: 3rem;
   box-sizing: content-box;
-  width: 25%;
   text-align: center; }
   @media (max-width: 768px) {
     li.menu {
@@ -116,6 +122,13 @@ div.img-info {
   div.img-info h6 {
     font-size: 1.7rem;
     padding-top: 45%; }
+
+div#busquedas-laborales {
+  display: flex;
+  gap: 2rem; }
+  @media (max-width: 768px) {
+    div#busquedas-laborales {
+      display: block; } }
 
 img.logo-navbar {
   width: 250px; }
@@ -240,3 +253,6 @@ article#quienes-somos {
 
 article.gestion-menstrual {
   background-color: #EFEBC8; }
+
+article#logistica, article#recaudador-fondos, article#community-manager, article#editor-audiovisual, article#diseniador-grafico, article#asistente-twitter, article#investigador-politico {
+  display: none; }

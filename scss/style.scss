@@ -56,6 +56,13 @@ a{
         border-radius: 10px;
         border: solid;
     }
+    &.busqueda{
+        color: $gris-claro;
+        &:hover{
+            text-decoration: none;
+            color: $primary;
+        }
+    }
 }
 
 ul{
@@ -67,8 +74,9 @@ ul{
 li{
     &.menu{
         border: solid;
+        border-radius: 10px;
+        height: 3rem;
         box-sizing: content-box;
-        width: 25%;
         text-align: center;
         @media (max-width: 768px) {
             width: 100%;
@@ -160,6 +168,13 @@ div{
         h6{
             font-size: 1.7rem;
             padding-top: 45%;
+        }
+    }
+    &#busquedas-laborales{
+        display: flex;
+        gap: 2rem;
+        @media (max-width:768px){
+            display: block;
         }
     }
 }
@@ -318,7 +333,12 @@ article{
     &.gestion-menstrual{
         background-color: $gris-claro;
     }
+    &#logistica, &#recaudador-fondos, &#community-manager, &#editor-audiovisual, &#diseniador-grafico, &#asistente-twitter, &#investigador-politico{
+        display: none;
+    }
 }
+
+
 
 
 

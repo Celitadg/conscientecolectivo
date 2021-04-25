@@ -66,6 +66,10 @@ li.politica {
   background-color: #41B28E; }
 
 div.proyectos {
+  margin-top: 9rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex; }
   div.proyectos .item1 {
     padding-right: 3rem; }
@@ -132,6 +136,16 @@ div#busquedas-laborales {
   @media (max-width: 768px) {
     div#busquedas-laborales {
       display: block; } }
+
+div.libros {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-between; }
+  div.libros section {
+    text-align: center; }
+    div.libros section > div {
+      border: solid;
+      padding: 2rem 1rem 2rem 1rem; }
 
 img.logo-navbar {
   width: 250px; }
@@ -259,3 +273,6 @@ article.gestion-menstrual {
 
 article#logistica, article#recaudador-fondos, article#community-manager, article#editor-audiovisual, article#diseniador-grafico, article#asistente-twitter, article#investigador-politico {
   display: none; }
+
+article#libros h2, article#libros h4 {
+  text-transform: uppercase; }

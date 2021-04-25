@@ -101,6 +101,10 @@ li{
 
 div{
     &.proyectos{
+        margin-top: 9rem;
+        margin-bottom: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         display: flex;
         .item1{
             padding-right: 3rem;
@@ -178,6 +182,18 @@ div{
         gap: 2rem;
         @media (max-width:768px){
             display: block;
+        }
+    }
+    &.libros{
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        justify-content: space-between;
+        section{
+            text-align: center;
+            &>div{
+                border: solid;
+                padding: 2rem 1rem 2rem 1rem;
+            }
         }
     }
 }
@@ -338,6 +354,11 @@ article{
     }
     &#logistica, &#recaudador-fondos, &#community-manager, &#editor-audiovisual, &#diseniador-grafico, &#asistente-twitter, &#investigador-politico{
         display: none;
+    }
+    &#libros{
+        h2, h4{
+            text-transform: uppercase;
+        }
     }
 }
 

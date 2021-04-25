@@ -71,9 +71,6 @@ div.valores {
   justify-content: space-evenly; }
   @media (max-width: 768px) {
     div.valores {
-      grid-template-columns: repeat(2, 35%); } }
-  @media (max-width: 400px) {
-    div.valores {
       display: block; } }
 
 div.img-quienes-somos {

@@ -69,6 +69,28 @@ a{
             color: $primary;
         }
     }
+    &.dona{
+        background-color: $gris-claro;
+        border-radius: 10px;
+        border: solid;
+        padding:0.5rem;
+        margin-top: 2rem;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    &.sumate{
+        background-color: $gris-claro;
+        border-radius: 10px;
+        border: solid;
+        padding: 0.5rem;
+        margin-top: 2rem;
+        color: $gris-oscuro;
+        &:hover{
+            text-decoration: none;
+            color: $primary;
+        }
+    }
 }
 
 ul{
@@ -285,9 +307,6 @@ main{
         background-color: $gris-claro;
         color: $primary;
     }
-    &.prueba{
-        height: 75vh;
-    }
     &.biblioteca{
         margin-top: 9rem;
     }
@@ -437,6 +456,34 @@ article{
     &#libros{
         h2, h4{
             text-transform: uppercase;
+        }
+    }
+    &#dona{
+        background-color: $primary;
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        h3{
+            color: $gris-claro;
+            padding-top: 2rem;
+            font-size: 3rem;
+        }
+        p{
+            color: $gris-claro;
+        }
+    }
+    &#sumate{
+        text-align: center;
+        color: $gris-oscuro;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        h3{
+            color: $gris-oscuro;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+        p{
+            margin-bottom: 2rem;
         }
     }
 }

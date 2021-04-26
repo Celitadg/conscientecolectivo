@@ -70,9 +70,9 @@ a{
         }
     }
     &.dona{
+        font-family: $sub-destacada;
         background-color: $gris-claro;
         border-radius: 10px;
-        border: solid;
         padding:0.5rem;
         margin-top: 2rem;
         &:hover{
@@ -80,9 +80,9 @@ a{
         }
     }
     &.sumate{
+        font-family: $sub-destacada;
         background-color: $gris-claro;
         border-radius: 10px;
-        border: solid;
         padding: 0.5rem;
         margin-top: 2rem;
         color: $gris-oscuro;

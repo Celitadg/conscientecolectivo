@@ -50,6 +50,9 @@ h4{
 
 p{
     font-family: $general;
+    &.semidestacado{
+        font-weight: 700;
+    }
 }
 
 a{
@@ -194,6 +197,27 @@ div{
             padding-top: 45%;
         }
     }
+    &.libro1{
+        width: 300px;
+        height: 400px;
+        background-image: url(../img/libros/1.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 10px;
+        &:hover{
+            div.info-libro1{
+                visibility: visible;
+            }
+        }
+    }
+    &.info-libro1{
+        width: 300px;
+        height: 400px;
+        background-color: $azul;
+        border-radius: 10px;
+        visibility: hidden;
+    }
     &#busquedas-laborales{
         margin-top: 9rem;
         display: flex;
@@ -215,8 +239,9 @@ div{
         section{
             text-align: center;
             &>div{
-                border: solid;
-                padding: 2rem 1rem 2rem 1rem;
+               /*  border: solid; */
+                margin-bottom: 1rem;
+                /* padding: 2rem 1rem 2rem 1rem; */
             }
         }
     }

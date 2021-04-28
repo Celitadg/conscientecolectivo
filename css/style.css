@@ -29,6 +29,8 @@ h4 {
 
 p {
   font-family: "Raleway", sans-serif; }
+  p.semidestacado {
+    font-weight: 700; }
 
 a {
   color: #E9725D; }
@@ -147,6 +149,24 @@ div.img-info {
     font-size: 1.7rem;
     padding-top: 45%; }
 
+div.libro1 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/libros/1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px; }
+  div.libro1:hover div.info-libro1 {
+    visibility: visible; }
+
+div.info-libro1 {
+  width: 300px;
+  height: 400px;
+  background-color: #2D575C;
+  border-radius: 10px;
+  visibility: hidden; }
+
 div#busquedas-laborales {
   margin-top: 9rem;
   display: flex; }
@@ -168,8 +188,9 @@ div.libros {
   div.libros section {
     text-align: center; }
     div.libros section > div {
-      border: solid;
-      padding: 2rem 1rem 2rem 1rem; }
+      /*  border: solid; */
+      margin-bottom: 1rem;
+      /* padding: 2rem 1rem 2rem 1rem; */ }
 
 img.logo-navbar {
   width: 250px; }

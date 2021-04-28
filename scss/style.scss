@@ -56,18 +56,12 @@ a{
     color: $primary;
     &:hover{
         color: $gris-oscuro;
+        text-decoration: none;
     }
     &.boton{
         background-color: $gris-claro;
         border-radius: 10px;
-        border: solid;
-    }
-    &.busqueda{
-        color: $gris-claro;
-        &:hover{
-            text-decoration: none;
-            color: $primary;
-        }
+        font-family: $sub-destacada;
     }
     &.dona{
         font-family: $sub-destacada;
@@ -101,29 +95,20 @@ ul{
 }
 
 li{
+    font-family: $general;
     &.menu{
-        border: solid;
-        border-radius: 10px;
+        font-family: $sub-destacada;
+        padding-top: 1rem;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius:10px;
         height: 3rem;
         width: 15rem;
         box-sizing: content-box;
         text-align: center;
         @media (max-width: 768px) {
             width: 100%;
+            border-radius: 10px;
         }
-    }
-    
-    &.accion{
-        background-color: $verde-oscuro;
-    }
-    &.desarrollo{
-        background-color: $azul;
-    }
-    &.comunicacion{
-        background-color: $gris-oscuro;
-    }
-    &.politica{
-        background-color: $verde-claro;
     }
 }
 
@@ -212,7 +197,6 @@ div{
     &#busquedas-laborales{
         margin-top: 9rem;
         display: flex;
-        gap: 2rem;
         @media (max-width:768px){
             display: block;
         }
@@ -277,6 +261,9 @@ nav{
     }
     img:hover{
         width: 255px;
+    }
+    li.nav-item{
+        font-family: $sub-destacada;
     }
 }
 
@@ -450,8 +437,72 @@ article{
             line-height: 2rem;
         }
     }
-    &#logistica, &#recaudador-fondos, &#community-manager, &#editor-audiovisual, &#diseniador-grafico, &#asistente-twitter, &#investigador-politico{
+    &#trabajo-territorial{
+        background-color: $verde-oscuro;
+        padding: 2rem 2rem 2rem 3rem;
+        color: $gris-claro;
+        margin-bottom: 2rem;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius:10px;
+        @media (max-width:768px){
+            border-radius: 10px;
+        }
+    }
+    &#logistica{
+        background-color: $verde-oscuro;
+        padding: 2rem 2rem 2rem 3rem;
+        color: $gris-claro;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+    &#recaudador-fondos{
+        background-color: $azul;
+        padding: 2rem 2rem 2rem 3rem;
+        color: $gris-claro;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+    &#community-manager{
+        background-color: $gris-oscuro;
+        padding: 2rem 2rem 2rem 3rem;
+        color: $gris-claro;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+    &#editor-audiovisual{
+        background-color: $gris-oscuro;
+        padding: 2rem 2rem 2rem 3rem;
+        color: $gris-claro;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+    &#diseniador-grafico{
+        background-color: $gris-oscuro;
+        padding: 2rem 2rem 2rem 3rem;
+        color: $gris-claro;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+    &#asistente-twitter{
+        background-color: $gris-oscuro;
+        padding: 2rem 2rem 2rem 3rem;
+        color: $gris-claro;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+    &#investigador-politico{
+        background-color: $verde-claro;
+        padding: 2rem 2rem 2rem 3rem;
+        color: $gris-claro;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+    &#trabajo-territorial, &#logistica, &#recaudador-fondos, &#community-manager, &#editor-audiovisual, &#diseniador-grafico, &#asistente-twitter, &#investigador-politico{
         display: none;
+        @media (max-width:768px){
+            padding: 2rem;
+        }
     }
     &#libros{
         h2, h4{

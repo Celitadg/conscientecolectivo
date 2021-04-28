@@ -33,16 +33,12 @@ p {
 a {
   color: #E9725D; }
   a:hover {
-    color: #5D8B80; }
+    color: #5D8B80;
+    text-decoration: none; }
   a.boton {
     background-color: #EFEBC8;
     border-radius: 10px;
-    border: solid; }
-  a.busqueda {
-    color: #EFEBC8; }
-    a.busqueda:hover {
-      text-decoration: none;
-      color: #E9725D; }
+    font-family: "Righteous", cursive; }
   a.dona {
     font-family: "Righteous", cursive;
     background-color: #EFEBC8;
@@ -66,28 +62,21 @@ ul.trabajo {
   list-style-type: none;
   padding: 0; }
 
-li.menu {
-  border: solid;
-  border-radius: 10px;
-  height: 3rem;
-  width: 15rem;
-  box-sizing: content-box;
-  text-align: center; }
-  @media (max-width: 768px) {
-    li.menu {
-      width: 100%; } }
-
-li.accion {
-  background-color: #1B4D41; }
-
-li.desarrollo {
-  background-color: #2D575C; }
-
-li.comunicacion {
-  background-color: #5D8B80; }
-
-li.politica {
-  background-color: #41B28E; }
+li {
+  font-family: "Raleway", sans-serif; }
+  li.menu {
+    font-family: "Righteous", cursive;
+    padding-top: 1rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 3rem;
+    width: 15rem;
+    box-sizing: content-box;
+    text-align: center; }
+    @media (max-width: 768px) {
+      li.menu {
+        width: 100%;
+        border-radius: 10px; } }
 
 div.proyectos {
   margin-bottom: 3rem;
@@ -160,8 +149,7 @@ div.img-info {
 
 div#busquedas-laborales {
   margin-top: 9rem;
-  display: flex;
-  gap: 2rem; }
+  display: flex; }
   @media (max-width: 768px) {
     div#busquedas-laborales {
       display: block; } }
@@ -220,6 +208,8 @@ nav {
     font-family: "Raleway", sans-serif; }
   nav img:hover {
     width: 255px; }
+  nav li.nav-item {
+    font-family: "Righteous", cursive; }
 
 footer {
   background-color: #E9725D;
@@ -354,8 +344,72 @@ article#accion-barrial {
   article#accion-barrial p {
     line-height: 2rem; }
 
-article#logistica, article#recaudador-fondos, article#community-manager, article#editor-audiovisual, article#diseniador-grafico, article#asistente-twitter, article#investigador-politico {
+article#trabajo-territorial {
+  background-color: #1B4D41;
+  padding: 2rem 2rem 2rem 3rem;
+  color: #EFEBC8;
+  margin-bottom: 2rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; }
+  @media (max-width: 768px) {
+    article#trabajo-territorial {
+      border-radius: 10px; } }
+
+article#logistica {
+  background-color: #1B4D41;
+  padding: 2rem 2rem 2rem 3rem;
+  color: #EFEBC8;
+  margin-bottom: 2rem;
+  border-radius: 10px; }
+
+article#recaudador-fondos {
+  background-color: #2D575C;
+  padding: 2rem 2rem 2rem 3rem;
+  color: #EFEBC8;
+  margin-bottom: 2rem;
+  border-radius: 10px; }
+
+article#community-manager {
+  background-color: #5D8B80;
+  padding: 2rem 2rem 2rem 3rem;
+  color: #EFEBC8;
+  margin-bottom: 2rem;
+  border-radius: 10px; }
+
+article#editor-audiovisual {
+  background-color: #5D8B80;
+  padding: 2rem 2rem 2rem 3rem;
+  color: #EFEBC8;
+  margin-bottom: 2rem;
+  border-radius: 10px; }
+
+article#diseniador-grafico {
+  background-color: #5D8B80;
+  padding: 2rem 2rem 2rem 3rem;
+  color: #EFEBC8;
+  margin-bottom: 2rem;
+  border-radius: 10px; }
+
+article#asistente-twitter {
+  background-color: #5D8B80;
+  padding: 2rem 2rem 2rem 3rem;
+  color: #EFEBC8;
+  margin-bottom: 2rem;
+  border-radius: 10px; }
+
+article#investigador-politico {
+  background-color: #41B28E;
+  padding: 2rem 2rem 2rem 3rem;
+  color: #EFEBC8;
+  margin-bottom: 2rem;
+  border-radius: 10px; }
+
+article#trabajo-territorial, article#logistica, article#recaudador-fondos, article#community-manager, article#editor-audiovisual, article#diseniador-grafico, article#asistente-twitter, article#investigador-politico {
   display: none; }
+  @media (max-width: 768px) {
+    article#trabajo-territorial, article#logistica, article#recaudador-fondos, article#community-manager, article#editor-audiovisual, article#diseniador-grafico, article#asistente-twitter, article#investigador-politico {
+      padding: 2rem; } }
 
 article#libros h2, article#libros h4 {
   text-transform: uppercase; }

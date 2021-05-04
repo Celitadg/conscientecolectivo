@@ -134,3 +134,6 @@ $(".investigador-politico").click(
         $(".investigador-politico a").css("color", "#EFEBC8");  
     }
 );
+
+
+

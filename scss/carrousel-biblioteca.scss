@@ -1,0 +1,88 @@
+.contenedor-titulos-controles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .indicadores button{
+        background: #E9725D;;
+        height: 0.3rem;
+        width: 1rem;
+        cursor: pointer;
+        border: none;
+        margin-right: 1rem;
+        &:hover, &.activo{
+            background: #2D575C;
+        }
+    }
+}
+
+div.titulo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.libros-destacados{
+    margin-bottom: 3rem;
+    .contenedor-principal{
+        display: flex;
+        align-items: center;
+        position: relative;
+        .flecha-izquierda, .flecha-derecha{
+            position: absolute;
+            border: none;
+            background: rgba(0, 0, 0, 0.1);
+            height: 50%;
+            top: calc(50% - 25%);
+            cursor: pointer;
+            z-index: 500;
+            transition: .2s ease all;
+        }
+        .flecha-izquierda:hover, .flecha-derecha:hover{
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .flecha-izquierda{
+            left: 0;
+        }
+        .flecha-derecha{
+            right: 0;
+        }
+    }
+    .contenedor-carrousel{
+        width: 100%;
+        padding: 1rem 0;
+        overflow: hidden;
+        scroll-behavior: smooth;
+        .carrousel{
+            display: flex;
+            flex-wrap: nowrap;
+            .libro-carrousel{
+                min-width: 20%;
+                transition: .3 ease all;
+                box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.1);
+                &.hover{
+                    transform: scale(1.2);
+                    transform-origin: center;
+                }
+                img{
+                    width: 100%;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width:576px){
+    .libros-destacados .contenedor-carrousel{
+        overflow: visible;
+    }
+    .libros-destacados .contenedor-carrousel .carrousel{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    .libros-destacados .indicadores, .libros-destacados .flecha-izquierda, .libros-destacados .flecha-derecha{
+        display: none;
+    }
+}

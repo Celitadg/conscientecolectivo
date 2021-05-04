@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
     text-transform: uppercase;
+    &.titulo-involucrate{
+        margin: 3rem 0;
+    }
 }
 
 h2{
@@ -116,6 +119,10 @@ li{
 }
 
 div{
+    &.involucrate{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     &.proyectos, &.busquedas{
         margin-bottom: 3rem;
         padding-top: 2rem;
@@ -280,6 +287,7 @@ img{
         }
     }
     &.proyectos{
+        border-radius: 10px;
         @media (min-width:993px){
             width: 960px;
         }
@@ -295,6 +303,12 @@ img{
         @media (max-width:420px){
             width: 300px;
         }
+    }
+    &.img-involucrate{
+        border-radius: 10px;
+    }
+    &.img-quienes{
+        border-radius: 10px;
     }
 }
 
@@ -541,7 +555,7 @@ article{
         }
     }
     &#dona{
-        background-color: $primary;
+        background-color: $gris-oscuro;
         text-align: center;
         padding-top: 3rem;
         padding-bottom: 3rem;
@@ -557,8 +571,8 @@ article{
     &#sumate{
         text-align: center;
         color: $gris-oscuro;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         h3{
             color: $gris-oscuro;
             font-size: 3rem;

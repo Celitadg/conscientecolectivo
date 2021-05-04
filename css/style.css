@@ -8,6 +8,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   text-transform: uppercase; }
+  h1.titulo-involucrate {
+    margin: 3rem 0; }
 
 h2 {
   font-size: 2.5rem; }
@@ -79,6 +81,10 @@ li {
       li.menu {
         width: 100%;
         border-radius: 10px; } }
+
+div.involucrate {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 div.proyectos, div.busquedas {
   margin-bottom: 3rem;
@@ -881,25 +887,29 @@ img.logo-navbar {
     img.logo-navbar {
       width: 150px; } }
 
-@media (min-width: 993px) {
-  img.proyectos {
-    width: 960px; } }
+img.proyectos {
+  border-radius: 10px; }
+  @media (min-width: 993px) {
+    img.proyectos {
+      width: 960px; } }
+  @media (max-width: 992px) {
+    img.proyectos {
+      width: 700px; } }
+  @media (max-width: 768px) {
+    img.proyectos {
+      width: 500px; } }
+  @media (max-width: 576px) {
+    img.proyectos {
+      width: 420px; } }
+  @media (max-width: 420px) {
+    img.proyectos {
+      width: 300px; } }
 
-@media (max-width: 992px) {
-  img.proyectos {
-    width: 700px; } }
+img.img-involucrate {
+  border-radius: 10px; }
 
-@media (max-width: 768px) {
-  img.proyectos {
-    width: 500px; } }
-
-@media (max-width: 576px) {
-  img.proyectos {
-    width: 420px; } }
-
-@media (max-width: 420px) {
-  img.proyectos {
-    width: 300px; } }
+img.img-quienes {
+  border-radius: 10px; }
 
 nav {
   font-family: "Righteous", cursive;
@@ -1103,7 +1113,7 @@ article#libros h2, article#libros h4 {
   text-transform: uppercase; }
 
 article#dona {
-  background-color: #E9725D;
+  background-color: #5D8B80;
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 3rem; }
@@ -1117,8 +1127,8 @@ article#dona {
 article#sumate {
   text-align: center;
   color: #5D8B80;
-  padding-top: 10rem;
-  padding-bottom: 10rem; }
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
   article#sumate h3 {
     color: #5D8B80;
     font-size: 3rem;

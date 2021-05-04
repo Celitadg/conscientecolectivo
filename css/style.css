@@ -859,7 +859,7 @@ div.libros {
   @media (max-width: 576px) {
     div.libros {
       display: block;
-      padding-left: 4rem; }
+      padding-left: 3rem; }
       div.libros h3 {
         padding-right: 4.5rem; } }
   div.libros section {

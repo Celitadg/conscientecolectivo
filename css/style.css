@@ -181,7 +181,12 @@ div.info-libro1 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro1 h4 {
+    font-size: 1.2rem; }
+  div.info-libro1 h5, div.info-libro1 p {
+    font-size: 0.9rem; }
 
 div.libro2 {
   width: 300px;
@@ -200,7 +205,12 @@ div.info-libro2 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro2 h4 {
+    font-size: 1.2rem; }
+  div.info-libro2 h5, div.info-libro2 p {
+    font-size: 0.9rem; }
 
 div.libro3 {
   width: 300px;
@@ -219,7 +229,12 @@ div.info-libro3 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro3 h4 {
+    font-size: 1.2rem; }
+  div.info-libro3 h5, div.info-libro3 p {
+    font-size: 0.9rem; }
 
 div.libro4 {
   width: 300px;
@@ -238,7 +253,12 @@ div.info-libro4 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro4 h4 {
+    font-size: 1.2rem; }
+  div.info-libro4 h5, div.info-libro4 p {
+    font-size: 0.9rem; }
 
 div.libro5 {
   width: 300px;
@@ -257,7 +277,12 @@ div.info-libro5 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro5 h4 {
+    font-size: 1.2rem; }
+  div.info-libro5 h5, div.info-libro5 p {
+    font-size: 0.9rem; }
 
 div.libro6 {
   width: 300px;
@@ -276,7 +301,12 @@ div.info-libro6 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro6 h4 {
+    font-size: 1.2rem; }
+  div.info-libro6 h5, div.info-libro6 p {
+    font-size: 0.9rem; }
 
 div.libro7 {
   width: 300px;
@@ -295,7 +325,12 @@ div.info-libro7 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro7 h4 {
+    font-size: 1.2rem; }
+  div.info-libro7 h5, div.info-libro7 p {
+    font-size: 0.9rem; }
 
 div.libro8 {
   width: 300px;
@@ -314,7 +349,12 @@ div.info-libro8 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro8 h4 {
+    font-size: 1.2rem; }
+  div.info-libro8 h5, div.info-libro8 p {
+    font-size: 0.9rem; }
 
 div.libro9 {
   width: 300px;
@@ -333,7 +373,12 @@ div.info-libro9 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro9 h4 {
+    font-size: 1.2rem; }
+  div.info-libro9 h5, div.info-libro9 p {
+    font-size: 0.9rem; }
 
 div.libro10 {
   width: 300px;
@@ -352,7 +397,12 @@ div.info-libro10 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro10 h4 {
+    font-size: 1.2rem; }
+  div.info-libro10 h5, div.info-libro10 p {
+    font-size: 0.9rem; }
 
 div.libro11 {
   width: 300px;
@@ -371,7 +421,12 @@ div.info-libro11 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro11 h4 {
+    font-size: 1.2rem; }
+  div.info-libro11 h5, div.info-libro11 p {
+    font-size: 0.9rem; }
 
 div.libro12 {
   width: 300px;
@@ -390,7 +445,12 @@ div.info-libro12 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro12 h4 {
+    font-size: 1.2rem; }
+  div.info-libro12 h5, div.info-libro12 p {
+    font-size: 0.9rem; }
 
 div.libro13 {
   width: 300px;
@@ -409,7 +469,12 @@ div.info-libro13 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro13 h4 {
+    font-size: 1.2rem; }
+  div.info-libro13 h5, div.info-libro13 p {
+    font-size: 0.9rem; }
 
 div.libro14 {
   width: 300px;
@@ -428,7 +493,12 @@ div.info-libro14 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro14 h4 {
+    font-size: 1.2rem; }
+  div.info-libro14 h5, div.info-libro14 p {
+    font-size: 0.9rem; }
 
 div.libro15 {
   width: 300px;
@@ -447,7 +517,12 @@ div.info-libro15 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro15 h4 {
+    font-size: 1.2rem; }
+  div.info-libro15 h5, div.info-libro15 p {
+    font-size: 0.9rem; }
 
 div.libro16 {
   width: 300px;
@@ -466,7 +541,12 @@ div.info-libro16 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro16 h4 {
+    font-size: 1.2rem; }
+  div.info-libro16 h5, div.info-libro16 p {
+    font-size: 0.9rem; }
 
 div.libro17 {
   width: 300px;
@@ -485,7 +565,12 @@ div.info-libro17 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro17 h4 {
+    font-size: 1.2rem; }
+  div.info-libro17 h5, div.info-libro17 p {
+    font-size: 0.9rem; }
 
 div.libro18 {
   width: 300px;
@@ -504,7 +589,12 @@ div.info-libro18 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro18 h4 {
+    font-size: 1.2rem; }
+  div.info-libro18 h5, div.info-libro18 p {
+    font-size: 0.9rem; }
 
 div.libro19 {
   width: 300px;
@@ -523,7 +613,12 @@ div.info-libro19 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro19 h4 {
+    font-size: 1.2rem; }
+  div.info-libro19 h5, div.info-libro19 p {
+    font-size: 0.9rem; }
 
 div.libro20 {
   width: 300px;
@@ -542,7 +637,12 @@ div.info-libro20 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro20 h4 {
+    font-size: 1.2rem; }
+  div.info-libro20 h5, div.info-libro20 p {
+    font-size: 0.9rem; }
 
 div.libro21 {
   width: 300px;
@@ -561,7 +661,12 @@ div.info-libro21 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro21 h4 {
+    font-size: 1.2rem; }
+  div.info-libro21 h5, div.info-libro21 p {
+    font-size: 0.9rem; }
 
 div.libro22 {
   width: 300px;
@@ -580,7 +685,12 @@ div.info-libro22 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro22 h4 {
+    font-size: 1.2rem; }
+  div.info-libro22 h5, div.info-libro22 p {
+    font-size: 0.9rem; }
 
 div.libro23 {
   width: 300px;
@@ -599,7 +709,12 @@ div.info-libro23 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro23 h4 {
+    font-size: 1.2rem; }
+  div.info-libro23 h5, div.info-libro23 p {
+    font-size: 0.9rem; }
 
 div.libro24 {
   width: 300px;
@@ -618,7 +733,12 @@ div.info-libro24 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro24 h4 {
+    font-size: 1.2rem; }
+  div.info-libro24 h5, div.info-libro24 p {
+    font-size: 0.9rem; }
 
 div.libro25 {
   width: 300px;
@@ -637,7 +757,12 @@ div.info-libro25 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro25 h4 {
+    font-size: 1.2rem; }
+  div.info-libro25 h5, div.info-libro25 p {
+    font-size: 0.9rem; }
 
 div.libro26 {
   width: 300px;
@@ -656,7 +781,12 @@ div.info-libro26 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro26 h4 {
+    font-size: 1.2rem; }
+  div.info-libro26 h5, div.info-libro26 p {
+    font-size: 0.9rem; }
 
 div.libro27 {
   width: 300px;
@@ -675,7 +805,12 @@ div.info-libro27 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro27 h4 {
+    font-size: 1.2rem; }
+  div.info-libro27 h5, div.info-libro27 p {
+    font-size: 0.9rem; }
 
 div.libro28 {
   width: 300px;
@@ -694,7 +829,12 @@ div.info-libro28 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro28 h4 {
+    font-size: 1.2rem; }
+  div.info-libro28 h5, div.info-libro28 p {
+    font-size: 0.9rem; }
 
 div.libro29 {
   width: 300px;
@@ -713,7 +853,12 @@ div.info-libro29 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro29 h4 {
+    font-size: 1.2rem; }
+  div.info-libro29 h5, div.info-libro29 p {
+    font-size: 0.9rem; }
 
 div.libro30 {
   width: 300px;
@@ -732,7 +877,12 @@ div.info-libro30 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro30 h4 {
+    font-size: 1.2rem; }
+  div.info-libro30 h5, div.info-libro30 p {
+    font-size: 0.9rem; }
 
 div.libro31 {
   width: 300px;
@@ -751,7 +901,12 @@ div.info-libro31 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro31 h4 {
+    font-size: 1.2rem; }
+  div.info-libro31 h5, div.info-libro31 p {
+    font-size: 0.9rem; }
 
 div.libro32 {
   width: 300px;
@@ -770,7 +925,12 @@ div.info-libro32 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro32 h4 {
+    font-size: 1.2rem; }
+  div.info-libro32 h5, div.info-libro32 p {
+    font-size: 0.9rem; }
 
 div.libro33 {
   width: 300px;
@@ -789,7 +949,12 @@ div.info-libro33 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro33 h4 {
+    font-size: 1.2rem; }
+  div.info-libro33 h5, div.info-libro33 p {
+    font-size: 0.9rem; }
 
 div.libro34 {
   width: 300px;
@@ -808,7 +973,12 @@ div.info-libro34 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro34 h4 {
+    font-size: 1.2rem; }
+  div.info-libro34 h5, div.info-libro34 p {
+    font-size: 0.9rem; }
 
 div.libro35 {
   width: 300px;
@@ -827,7 +997,12 @@ div.info-libro35 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro35 h4 {
+    font-size: 1.2rem; }
+  div.info-libro35 h5, div.info-libro35 p {
+    font-size: 0.9rem; }
 
 div.libro36 {
   width: 300px;
@@ -846,13 +1021,50 @@ div.info-libro36 {
   height: 450px;
   background-color: #2D575C;
   border-radius: 10px;
-  visibility: hidden; }
+  visibility: hidden;
+  padding: 1rem; }
+  div.info-libro36 h4 {
+    font-size: 1.2rem; }
+  div.info-libro36 h5, div.info-libro36 p {
+    font-size: 0.9rem; }
 
-div.info-libro4, div.info-libro7, div.info-libro24, div.info-libro32, div.info-libro33 {
-  height: 575px; }
+div.info-libro24, div.info-libro32 {
+  height: 550px; }
 
 div.info-libro36 {
-  height: 650px; }
+  height: 575px; }
+
+div.sin-foto {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  border: solid;
+  padding: 1rem; }
+  div.sin-foto h4 {
+    font-size: 1.2rem; }
+  div.sin-foto h5, div.sin-foto p {
+    font-size: 0.9rem; }
+
+div.color-g-o {
+  border-color: #5D8B80; }
+
+div.color-g-c {
+  border-color: #EFEBC8; }
+
+div.color-a {
+  border-color: #2D575C; }
+
+div.color-v-o {
+  border-color: #1B4D41; }
+
+div.color-v-c {
+  border-color: #41B28E; }
+
+div.color-c {
+  border-color: #98D4E8; }
+
+div.color-n {
+  border-color: #E49925; }
 
 div#busquedas-laborales {
   display: flex; }

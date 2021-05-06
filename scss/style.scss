@@ -237,13 +237,54 @@ div{
             background-color: $azul;
             border-radius: 10px;
             visibility: hidden;
+            padding: 1rem;
+            h4{
+                font-size: 1.2rem;
+            }
+            h5, p{  
+                font-size: 0.9rem;
+            }
             }
     }
-    &.info-libro4, &.info-libro7, &.info-libro24, &.info-libro32, &.info-libro33{
-        height: 575px;
+    &.info-libro24, &.info-libro32{
+        height: 550px;
     }
     &.info-libro36{
-        height: 650px;
+        height: 575px;
+    }
+    &.sin-foto{
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        border: solid;
+        padding: 1rem;
+        h4{
+            font-size: 1.2rem;
+        }
+        h5, p{  
+            font-size: 0.9rem;
+        }
+    }
+    &.color-g-o{
+        border-color: $gris-oscuro;
+    }
+    &.color-g-c{
+        border-color: $gris-claro;
+    }
+    &.color-a{
+        border-color: $azul;
+    }
+    &.color-v-o{
+        border-color: $verde-oscuro;
+    }
+    &.color-v-c{
+        border-color: $verde-claro
+    }
+    &.color-c{
+        border-color: $celeste;
+    }
+    &.color-n{
+        border-color: $naranja;
     }
     &#busquedas-laborales{
         display: flex;

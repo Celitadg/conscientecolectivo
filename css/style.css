@@ -83,8 +83,16 @@ li {
         border-radius: 10px; } }
 
 div.involucrate {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem; }
+  @media (max-width: 576px) {
+    div.involucrate {
+      /* display: block;
+            text-align: center; */
+      gap: 0; } }
 
 div.proyectos, div.busquedas {
   margin-bottom: 3rem;
@@ -905,9 +913,6 @@ img.proyectos {
     img.proyectos {
       width: 300px; } }
 
-img.img-involucrate {
-  border-radius: 10px; }
-
 img.img-quienes {
   border-radius: 10px; }
 
@@ -1113,28 +1118,49 @@ article#libros h2, article#libros h4 {
   text-transform: uppercase; }
 
 article#dona {
-  background-color: #5D8B80;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+  width: 20rem;
+  height: 25rem;
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 3rem; }
   article#dona h3 {
-    color: #EFEBC8;
-    padding-top: 2rem;
+    color: #E9725D;
     font-size: 3rem; }
   article#dona p {
-    color: #EFEBC8; }
+    color: #E9725D;
+    margin-bottom: 2rem; }
+  @media (max-width: 576px) {
+    article#dona {
+      margin-left: auto;
+      height: 30rem;
+      /* width: 95%;
+            margin: auto;
+            height: 22rem;
+            margin-bottom: 1rem; */ } }
 
 article#sumate {
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+  width: 20rem;
+  height: 25rem;
   text-align: center;
   color: #5D8B80;
   padding-top: 3rem;
   padding-bottom: 3rem; }
   article#sumate h3 {
     color: #5D8B80;
-    font-size: 3rem;
-    margin-bottom: 2rem; }
+    font-size: 3rem; }
   article#sumate p {
     margin-bottom: 2rem; }
+  @media (max-width: 576px) {
+    article#sumate {
+      height: 30rem;
+      margin-right: auto;
+      /* width: 95%;
+            height: 22rem;
+            margin: auto; */ } }
 
 .contenedor-titulos-controles {
   display: flex;

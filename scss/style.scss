@@ -120,8 +120,16 @@ li{
 
 div{
     &.involucrate{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        @media (max-width:576px){
+            /* display: block;
+            text-align: center; */
+            gap: 0;
+        }
     }
     &.proyectos, &.busquedas{
         margin-bottom: 3rem;
@@ -303,9 +311,6 @@ img{
         @media (max-width:420px){
             width: 300px;
         }
-    }
-    &.img-involucrate{
-        border-radius: 10px;
     }
     &.img-quienes{
         border-radius: 10px;
@@ -555,20 +560,35 @@ article{
         }
     }
     &#dona{
-        background-color: $gris-oscuro;
+        border-radius: 10px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+        width: 20rem;
+        height: 25rem;
         text-align: center;
         padding-top: 3rem;
         padding-bottom: 3rem;
         h3{
-            color: $gris-claro;
-            padding-top: 2rem;
+            color: $primary;
             font-size: 3rem;
         }
         p{
-            color: $gris-claro;
+            color: $primary;
+            margin-bottom: 2rem;
         }
+        @media (max-width:576px){
+            margin-left: auto;
+            height: 30rem;
+            /* width: 95%;
+            margin: auto;
+            height: 22rem;
+            margin-bottom: 1rem; */
+        } 
     }
     &#sumate{
+        border-radius: 10px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+        width: 20rem;
+        height: 25rem;
         text-align: center;
         color: $gris-oscuro;
         padding-top: 3rem;
@@ -576,11 +596,17 @@ article{
         h3{
             color: $gris-oscuro;
             font-size: 3rem;
-            margin-bottom: 2rem;
         }
         p{
             margin-bottom: 2rem;
         }
+        @media (max-width:576px){
+            height: 30rem;
+            margin-right: auto;
+            /* width: 95%;
+            height: 22rem;
+            margin: auto; */
+        } 
     }
 }
 

@@ -1063,23 +1063,23 @@ div {
     @media (max-width: 768px) {
       div#busquedas-laborales {
         display: block; } }
-  div.libros, div.documentales {
+  div.libros, div.documentales, div.peliculas {
     display: grid;
     grid-template-columns: repeat(3, 27%);
     justify-content: space-around; }
     @media (max-width: 992px) {
-      div.libros, div.documentales {
+      div.libros, div.documentales, div.peliculas {
         grid-template-columns: repeat(2, auto);
         column-gap: 1rem; } }
     @media (max-width: 576px) {
-      div.libros, div.documentales {
+      div.libros, div.documentales, div.peliculas {
         display: block;
         padding-left: 2.5rem; }
-        div.libros h3, div.documentales h3 {
+        div.libros h3, div.documentales h3, div.peliculas h3 {
           padding-right: 4.5rem; } }
-    div.libros section, div.documentales section {
+    div.libros section, div.documentales section, div.peliculas section {
       text-align: center; }
-      div.libros section > div, div.documentales section > div {
+      div.libros section > div, div.documentales section > div, div.peliculas section > div {
         /*  border: solid; */
         margin-bottom: 1rem;
         /* padding: 2rem 1rem 2rem 1rem; */ }
@@ -1946,6 +1946,870 @@ div {
     div.info-documental36 h4 {
       font-size: 1.2rem; }
     div.info-documental36 h5, div.info-documental36 p {
+      font-size: 0.9rem; }
+  div.peli1 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli1:hover div.info-peli1 {
+      visibility: visible; }
+    div.peli1:hover p {
+      color: #EFEBC8; }
+  div.info-peli1 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli1 h4 {
+      font-size: 1.2rem; }
+    div.info-peli1 h5, div.info-peli1 p {
+      font-size: 0.9rem; }
+  div.peli2 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli2:hover div.info-peli2 {
+      visibility: visible; }
+    div.peli2:hover p {
+      color: #EFEBC8; }
+  div.info-peli2 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli2 h4 {
+      font-size: 1.2rem; }
+    div.info-peli2 h5, div.info-peli2 p {
+      font-size: 0.9rem; }
+  div.peli3 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli3:hover div.info-peli3 {
+      visibility: visible; }
+    div.peli3:hover p {
+      color: #EFEBC8; }
+  div.info-peli3 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli3 h4 {
+      font-size: 1.2rem; }
+    div.info-peli3 h5, div.info-peli3 p {
+      font-size: 0.9rem; }
+  div.peli4 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli4:hover div.info-peli4 {
+      visibility: visible; }
+    div.peli4:hover p {
+      color: #EFEBC8; }
+  div.info-peli4 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli4 h4 {
+      font-size: 1.2rem; }
+    div.info-peli4 h5, div.info-peli4 p {
+      font-size: 0.9rem; }
+  div.peli5 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli5:hover div.info-peli5 {
+      visibility: visible; }
+    div.peli5:hover p {
+      color: #EFEBC8; }
+  div.info-peli5 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli5 h4 {
+      font-size: 1.2rem; }
+    div.info-peli5 h5, div.info-peli5 p {
+      font-size: 0.9rem; }
+  div.peli6 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli6:hover div.info-peli6 {
+      visibility: visible; }
+    div.peli6:hover p {
+      color: #EFEBC8; }
+  div.info-peli6 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli6 h4 {
+      font-size: 1.2rem; }
+    div.info-peli6 h5, div.info-peli6 p {
+      font-size: 0.9rem; }
+  div.peli7 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli7:hover div.info-peli7 {
+      visibility: visible; }
+    div.peli7:hover p {
+      color: #EFEBC8; }
+  div.info-peli7 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli7 h4 {
+      font-size: 1.2rem; }
+    div.info-peli7 h5, div.info-peli7 p {
+      font-size: 0.9rem; }
+  div.peli8 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli8:hover div.info-peli8 {
+      visibility: visible; }
+    div.peli8:hover p {
+      color: #EFEBC8; }
+  div.info-peli8 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli8 h4 {
+      font-size: 1.2rem; }
+    div.info-peli8 h5, div.info-peli8 p {
+      font-size: 0.9rem; }
+  div.peli9 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli9:hover div.info-peli9 {
+      visibility: visible; }
+    div.peli9:hover p {
+      color: #EFEBC8; }
+  div.info-peli9 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli9 h4 {
+      font-size: 1.2rem; }
+    div.info-peli9 h5, div.info-peli9 p {
+      font-size: 0.9rem; }
+  div.peli10 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli10:hover div.info-peli10 {
+      visibility: visible; }
+    div.peli10:hover p {
+      color: #EFEBC8; }
+  div.info-peli10 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli10 h4 {
+      font-size: 1.2rem; }
+    div.info-peli10 h5, div.info-peli10 p {
+      font-size: 0.9rem; }
+  div.peli11 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli11:hover div.info-peli11 {
+      visibility: visible; }
+    div.peli11:hover p {
+      color: #EFEBC8; }
+  div.info-peli11 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli11 h4 {
+      font-size: 1.2rem; }
+    div.info-peli11 h5, div.info-peli11 p {
+      font-size: 0.9rem; }
+  div.peli12 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli12:hover div.info-peli12 {
+      visibility: visible; }
+    div.peli12:hover p {
+      color: #EFEBC8; }
+  div.info-peli12 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli12 h4 {
+      font-size: 1.2rem; }
+    div.info-peli12 h5, div.info-peli12 p {
+      font-size: 0.9rem; }
+  div.peli13 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli13:hover div.info-peli13 {
+      visibility: visible; }
+    div.peli13:hover p {
+      color: #EFEBC8; }
+  div.info-peli13 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli13 h4 {
+      font-size: 1.2rem; }
+    div.info-peli13 h5, div.info-peli13 p {
+      font-size: 0.9rem; }
+  div.peli14 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli14:hover div.info-peli14 {
+      visibility: visible; }
+    div.peli14:hover p {
+      color: #EFEBC8; }
+  div.info-peli14 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli14 h4 {
+      font-size: 1.2rem; }
+    div.info-peli14 h5, div.info-peli14 p {
+      font-size: 0.9rem; }
+  div.peli15 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli15:hover div.info-peli15 {
+      visibility: visible; }
+    div.peli15:hover p {
+      color: #EFEBC8; }
+  div.info-peli15 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli15 h4 {
+      font-size: 1.2rem; }
+    div.info-peli15 h5, div.info-peli15 p {
+      font-size: 0.9rem; }
+  div.peli16 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli16.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli16:hover div.info-peli16 {
+      visibility: visible; }
+    div.peli16:hover p {
+      color: #EFEBC8; }
+  div.info-peli16 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli16 h4 {
+      font-size: 1.2rem; }
+    div.info-peli16 h5, div.info-peli16 p {
+      font-size: 0.9rem; }
+  div.peli17 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli17:hover div.info-peli17 {
+      visibility: visible; }
+    div.peli17:hover p {
+      color: #EFEBC8; }
+  div.info-peli17 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli17 h4 {
+      font-size: 1.2rem; }
+    div.info-peli17 h5, div.info-peli17 p {
+      font-size: 0.9rem; }
+  div.peli18 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli18:hover div.info-peli18 {
+      visibility: visible; }
+    div.peli18:hover p {
+      color: #EFEBC8; }
+  div.info-peli18 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli18 h4 {
+      font-size: 1.2rem; }
+    div.info-peli18 h5, div.info-peli18 p {
+      font-size: 0.9rem; }
+  div.peli19 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli19:hover div.info-peli19 {
+      visibility: visible; }
+    div.peli19:hover p {
+      color: #EFEBC8; }
+  div.info-peli19 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli19 h4 {
+      font-size: 1.2rem; }
+    div.info-peli19 h5, div.info-peli19 p {
+      font-size: 0.9rem; }
+  div.peli20 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli20.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli20:hover div.info-peli20 {
+      visibility: visible; }
+    div.peli20:hover p {
+      color: #EFEBC8; }
+  div.info-peli20 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli20 h4 {
+      font-size: 1.2rem; }
+    div.info-peli20 h5, div.info-peli20 p {
+      font-size: 0.9rem; }
+  div.peli21 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli21:hover div.info-peli21 {
+      visibility: visible; }
+    div.peli21:hover p {
+      color: #EFEBC8; }
+  div.info-peli21 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli21 h4 {
+      font-size: 1.2rem; }
+    div.info-peli21 h5, div.info-peli21 p {
+      font-size: 0.9rem; }
+  div.peli22 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli22:hover div.info-peli22 {
+      visibility: visible; }
+    div.peli22:hover p {
+      color: #EFEBC8; }
+  div.info-peli22 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli22 h4 {
+      font-size: 1.2rem; }
+    div.info-peli22 h5, div.info-peli22 p {
+      font-size: 0.9rem; }
+  div.peli23 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli23.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli23:hover div.info-peli23 {
+      visibility: visible; }
+    div.peli23:hover p {
+      color: #EFEBC8; }
+  div.info-peli23 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli23 h4 {
+      font-size: 1.2rem; }
+    div.info-peli23 h5, div.info-peli23 p {
+      font-size: 0.9rem; }
+  div.peli24 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli24.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli24:hover div.info-peli24 {
+      visibility: visible; }
+    div.peli24:hover p {
+      color: #EFEBC8; }
+  div.info-peli24 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli24 h4 {
+      font-size: 1.2rem; }
+    div.info-peli24 h5, div.info-peli24 p {
+      font-size: 0.9rem; }
+  div.peli25 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli25.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli25:hover div.info-peli25 {
+      visibility: visible; }
+    div.peli25:hover p {
+      color: #EFEBC8; }
+  div.info-peli25 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli25 h4 {
+      font-size: 1.2rem; }
+    div.info-peli25 h5, div.info-peli25 p {
+      font-size: 0.9rem; }
+  div.peli26 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli26.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli26:hover div.info-peli26 {
+      visibility: visible; }
+    div.peli26:hover p {
+      color: #EFEBC8; }
+  div.info-peli26 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli26 h4 {
+      font-size: 1.2rem; }
+    div.info-peli26 h5, div.info-peli26 p {
+      font-size: 0.9rem; }
+  div.peli27 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli27.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli27:hover div.info-peli27 {
+      visibility: visible; }
+    div.peli27:hover p {
+      color: #EFEBC8; }
+  div.info-peli27 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli27 h4 {
+      font-size: 1.2rem; }
+    div.info-peli27 h5, div.info-peli27 p {
+      font-size: 0.9rem; }
+  div.peli28 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli28.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli28:hover div.info-peli28 {
+      visibility: visible; }
+    div.peli28:hover p {
+      color: #EFEBC8; }
+  div.info-peli28 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli28 h4 {
+      font-size: 1.2rem; }
+    div.info-peli28 h5, div.info-peli28 p {
+      font-size: 0.9rem; }
+  div.peli29 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli29.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli29:hover div.info-peli29 {
+      visibility: visible; }
+    div.peli29:hover p {
+      color: #EFEBC8; }
+  div.info-peli29 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli29 h4 {
+      font-size: 1.2rem; }
+    div.info-peli29 h5, div.info-peli29 p {
+      font-size: 0.9rem; }
+  div.peli30 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli30.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli30:hover div.info-peli30 {
+      visibility: visible; }
+    div.peli30:hover p {
+      color: #EFEBC8; }
+  div.info-peli30 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli30 h4 {
+      font-size: 1.2rem; }
+    div.info-peli30 h5, div.info-peli30 p {
+      font-size: 0.9rem; }
+  div.peli31 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli31.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli31:hover div.info-peli31 {
+      visibility: visible; }
+    div.peli31:hover p {
+      color: #EFEBC8; }
+  div.info-peli31 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli31 h4 {
+      font-size: 1.2rem; }
+    div.info-peli31 h5, div.info-peli31 p {
+      font-size: 0.9rem; }
+  div.peli32 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli32.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli32:hover div.info-peli32 {
+      visibility: visible; }
+    div.peli32:hover p {
+      color: #EFEBC8; }
+  div.info-peli32 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli32 h4 {
+      font-size: 1.2rem; }
+    div.info-peli32 h5, div.info-peli32 p {
+      font-size: 0.9rem; }
+  div.peli33 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli33.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli33:hover div.info-peli33 {
+      visibility: visible; }
+    div.peli33:hover p {
+      color: #EFEBC8; }
+  div.info-peli33 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli33 h4 {
+      font-size: 1.2rem; }
+    div.info-peli33 h5, div.info-peli33 p {
+      font-size: 0.9rem; }
+  div.peli34 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli34.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli34:hover div.info-peli34 {
+      visibility: visible; }
+    div.peli34:hover p {
+      color: #EFEBC8; }
+  div.info-peli34 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli34 h4 {
+      font-size: 1.2rem; }
+    div.info-peli34 h5, div.info-peli34 p {
+      font-size: 0.9rem; }
+  div.peli35 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli35.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli35:hover div.info-peli35 {
+      visibility: visible; }
+    div.peli35:hover p {
+      color: #EFEBC8; }
+  div.info-peli35 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli35 h4 {
+      font-size: 1.2rem; }
+    div.info-peli35 h5, div.info-peli35 p {
+      font-size: 0.9rem; }
+  div.peli36 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/peliculas/peli36.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.peli36:hover div.info-peli36 {
+      visibility: visible; }
+    div.peli36:hover p {
+      color: #EFEBC8; }
+  div.info-peli36 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-peli36 h4 {
+      font-size: 1.2rem; }
+    div.info-peli36 h5, div.info-peli36 p {
       font-size: 0.9rem; }
   div.secciones-biblioteca {
     background-color: #E9725D;

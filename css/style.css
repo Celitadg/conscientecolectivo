@@ -82,1024 +82,1876 @@ li {
         width: 100%;
         border-radius: 10px; } }
 
-div.involucrate {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 2rem; }
-  @media (max-width: 576px) {
-    div.involucrate {
-      /* display: block;
-            text-align: center; */
-      gap: 0; } }
-
-div.proyectos, div.busquedas {
-  margin-bottom: 3rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  display: flex; }
-  @media (max-width: 576px) {
-    div.proyectos, div.busquedas {
-      text-align: center;
-      display: block; } }
-  div.proyectos .item1, div.busquedas .item1 {
-    padding-right: 3rem; }
+div {
+  /* &.color-g-o{
+        border-color: $gris-oscuro;
+    }
+    &.color-g-c{
+        border-color: $gris-claro;
+    }
+    &.color-a{
+        border-color: $azul;
+    }
+    &.color-v-o{
+        border-color: $verde-oscuro;
+    }
+    &.color-v-c{
+        border-color: $verde-claro
+    }
+    &.color-c{
+        border-color: $celeste;
+    }
+    &.color-n{
+        border-color: $naranja;
+    } */ }
+  div.involucrate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem; }
     @media (max-width: 576px) {
-      div.proyectos .item1, div.busquedas .item1 {
-        padding-right: 0; } }
-
-div.img {
-  text-align: center; }
-
-div.valores {
-  display: grid;
-  grid-template-columns: repeat(3, 30%);
-  justify-content: space-evenly; }
-  @media (max-width: 768px) {
-    div.valores {
-      display: block; } }
-
-div.img-quienes-somos {
-  text-align: center; }
-
-div.img-index1 {
-  width: 300px;
-  height: 300px;
-  background-image: url(../img/6.png);
-  border-radius: 50%;
-  margin-top: 2rem; }
-  div.img-index1:hover div.img-info {
-    visibility: visible; }
-
-div.img-index2 {
-  width: 300px;
-  height: 300px;
-  background-image: url(../img/7m.jpg);
-  border-radius: 50%;
-  margin-top: 2rem; }
-  div.img-index2:hover div.img-info {
-    visibility: visible; }
-
-div.img-index3 {
-  width: 300px;
-  height: 300px;
-  background-image: url(../img/8.jpg);
-  border-radius: 50%;
-  margin-top: 2rem; }
-  div.img-index3:hover div.img-info {
-    visibility: visible; }
-
-div.img-info {
-  width: 300px;
-  height: 300px;
-  background-color: #2D575C;
-  opacity: 0.9;
-  border-radius: 50%;
-  visibility: hidden;
-  text-transform: uppercase; }
-  div.img-info a {
-    text-decoration: none; }
-  div.img-info h6 {
-    font-size: 2.5rem;
-    padding-top: 35%; }
-
-div.libro1 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro1.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro1:hover div.info-libro1 {
-    visibility: visible; }
-  div.libro1:hover p {
-    color: #EFEBC8; }
-
-div.info-libro1 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro1 h4 {
-    font-size: 1.2rem; }
-  div.info-libro1 h5, div.info-libro1 p {
-    font-size: 0.9rem; }
-
-div.libro2 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro2.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro2:hover div.info-libro2 {
-    visibility: visible; }
-  div.libro2:hover p {
-    color: #EFEBC8; }
-
-div.info-libro2 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro2 h4 {
-    font-size: 1.2rem; }
-  div.info-libro2 h5, div.info-libro2 p {
-    font-size: 0.9rem; }
-
-div.libro3 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro3.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro3:hover div.info-libro3 {
-    visibility: visible; }
-  div.libro3:hover p {
-    color: #EFEBC8; }
-
-div.info-libro3 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro3 h4 {
-    font-size: 1.2rem; }
-  div.info-libro3 h5, div.info-libro3 p {
-    font-size: 0.9rem; }
-
-div.libro4 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro4.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro4:hover div.info-libro4 {
-    visibility: visible; }
-  div.libro4:hover p {
-    color: #EFEBC8; }
-
-div.info-libro4 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro4 h4 {
-    font-size: 1.2rem; }
-  div.info-libro4 h5, div.info-libro4 p {
-    font-size: 0.9rem; }
-
-div.libro5 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro5.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro5:hover div.info-libro5 {
-    visibility: visible; }
-  div.libro5:hover p {
-    color: #EFEBC8; }
-
-div.info-libro5 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro5 h4 {
-    font-size: 1.2rem; }
-  div.info-libro5 h5, div.info-libro5 p {
-    font-size: 0.9rem; }
-
-div.libro6 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro6.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro6:hover div.info-libro6 {
-    visibility: visible; }
-  div.libro6:hover p {
-    color: #EFEBC8; }
-
-div.info-libro6 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro6 h4 {
-    font-size: 1.2rem; }
-  div.info-libro6 h5, div.info-libro6 p {
-    font-size: 0.9rem; }
-
-div.libro7 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro7.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro7:hover div.info-libro7 {
-    visibility: visible; }
-  div.libro7:hover p {
-    color: #EFEBC8; }
-
-div.info-libro7 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro7 h4 {
-    font-size: 1.2rem; }
-  div.info-libro7 h5, div.info-libro7 p {
-    font-size: 0.9rem; }
-
-div.libro8 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro8.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro8:hover div.info-libro8 {
-    visibility: visible; }
-  div.libro8:hover p {
-    color: #EFEBC8; }
-
-div.info-libro8 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro8 h4 {
-    font-size: 1.2rem; }
-  div.info-libro8 h5, div.info-libro8 p {
-    font-size: 0.9rem; }
-
-div.libro9 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro9.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro9:hover div.info-libro9 {
-    visibility: visible; }
-  div.libro9:hover p {
-    color: #EFEBC8; }
-
-div.info-libro9 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro9 h4 {
-    font-size: 1.2rem; }
-  div.info-libro9 h5, div.info-libro9 p {
-    font-size: 0.9rem; }
-
-div.libro10 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro10.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro10:hover div.info-libro10 {
-    visibility: visible; }
-  div.libro10:hover p {
-    color: #EFEBC8; }
-
-div.info-libro10 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro10 h4 {
-    font-size: 1.2rem; }
-  div.info-libro10 h5, div.info-libro10 p {
-    font-size: 0.9rem; }
-
-div.libro11 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro11.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro11:hover div.info-libro11 {
-    visibility: visible; }
-  div.libro11:hover p {
-    color: #EFEBC8; }
-
-div.info-libro11 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro11 h4 {
-    font-size: 1.2rem; }
-  div.info-libro11 h5, div.info-libro11 p {
-    font-size: 0.9rem; }
-
-div.libro12 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro12.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro12:hover div.info-libro12 {
-    visibility: visible; }
-  div.libro12:hover p {
-    color: #EFEBC8; }
-
-div.info-libro12 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro12 h4 {
-    font-size: 1.2rem; }
-  div.info-libro12 h5, div.info-libro12 p {
-    font-size: 0.9rem; }
-
-div.libro13 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro13.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro13:hover div.info-libro13 {
-    visibility: visible; }
-  div.libro13:hover p {
-    color: #EFEBC8; }
-
-div.info-libro13 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro13 h4 {
-    font-size: 1.2rem; }
-  div.info-libro13 h5, div.info-libro13 p {
-    font-size: 0.9rem; }
-
-div.libro14 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro14.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro14:hover div.info-libro14 {
-    visibility: visible; }
-  div.libro14:hover p {
-    color: #EFEBC8; }
-
-div.info-libro14 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro14 h4 {
-    font-size: 1.2rem; }
-  div.info-libro14 h5, div.info-libro14 p {
-    font-size: 0.9rem; }
-
-div.libro15 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro15.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro15:hover div.info-libro15 {
-    visibility: visible; }
-  div.libro15:hover p {
-    color: #EFEBC8; }
-
-div.info-libro15 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro15 h4 {
-    font-size: 1.2rem; }
-  div.info-libro15 h5, div.info-libro15 p {
-    font-size: 0.9rem; }
-
-div.libro16 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro16.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro16:hover div.info-libro16 {
-    visibility: visible; }
-  div.libro16:hover p {
-    color: #EFEBC8; }
-
-div.info-libro16 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro16 h4 {
-    font-size: 1.2rem; }
-  div.info-libro16 h5, div.info-libro16 p {
-    font-size: 0.9rem; }
-
-div.libro17 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro17.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro17:hover div.info-libro17 {
-    visibility: visible; }
-  div.libro17:hover p {
-    color: #EFEBC8; }
-
-div.info-libro17 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro17 h4 {
-    font-size: 1.2rem; }
-  div.info-libro17 h5, div.info-libro17 p {
-    font-size: 0.9rem; }
-
-div.libro18 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro18.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro18:hover div.info-libro18 {
-    visibility: visible; }
-  div.libro18:hover p {
-    color: #EFEBC8; }
-
-div.info-libro18 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro18 h4 {
-    font-size: 1.2rem; }
-  div.info-libro18 h5, div.info-libro18 p {
-    font-size: 0.9rem; }
-
-div.libro19 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro19.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro19:hover div.info-libro19 {
-    visibility: visible; }
-  div.libro19:hover p {
-    color: #EFEBC8; }
-
-div.info-libro19 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro19 h4 {
-    font-size: 1.2rem; }
-  div.info-libro19 h5, div.info-libro19 p {
-    font-size: 0.9rem; }
-
-div.libro20 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro20.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro20:hover div.info-libro20 {
-    visibility: visible; }
-  div.libro20:hover p {
-    color: #EFEBC8; }
-
-div.info-libro20 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro20 h4 {
-    font-size: 1.2rem; }
-  div.info-libro20 h5, div.info-libro20 p {
-    font-size: 0.9rem; }
-
-div.libro21 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro21.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro21:hover div.info-libro21 {
-    visibility: visible; }
-  div.libro21:hover p {
-    color: #EFEBC8; }
-
-div.info-libro21 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro21 h4 {
-    font-size: 1.2rem; }
-  div.info-libro21 h5, div.info-libro21 p {
-    font-size: 0.9rem; }
-
-div.libro22 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro22.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro22:hover div.info-libro22 {
-    visibility: visible; }
-  div.libro22:hover p {
-    color: #EFEBC8; }
-
-div.info-libro22 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro22 h4 {
-    font-size: 1.2rem; }
-  div.info-libro22 h5, div.info-libro22 p {
-    font-size: 0.9rem; }
-
-div.libro23 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro23.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro23:hover div.info-libro23 {
-    visibility: visible; }
-  div.libro23:hover p {
-    color: #EFEBC8; }
-
-div.info-libro23 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro23 h4 {
-    font-size: 1.2rem; }
-  div.info-libro23 h5, div.info-libro23 p {
-    font-size: 0.9rem; }
-
-div.libro24 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro24.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro24:hover div.info-libro24 {
-    visibility: visible; }
-  div.libro24:hover p {
-    color: #EFEBC8; }
-
-div.info-libro24 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro24 h4 {
-    font-size: 1.2rem; }
-  div.info-libro24 h5, div.info-libro24 p {
-    font-size: 0.9rem; }
-
-div.libro25 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro25.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro25:hover div.info-libro25 {
-    visibility: visible; }
-  div.libro25:hover p {
-    color: #EFEBC8; }
-
-div.info-libro25 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro25 h4 {
-    font-size: 1.2rem; }
-  div.info-libro25 h5, div.info-libro25 p {
-    font-size: 0.9rem; }
-
-div.libro26 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro26.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro26:hover div.info-libro26 {
-    visibility: visible; }
-  div.libro26:hover p {
-    color: #EFEBC8; }
-
-div.info-libro26 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro26 h4 {
-    font-size: 1.2rem; }
-  div.info-libro26 h5, div.info-libro26 p {
-    font-size: 0.9rem; }
-
-div.libro27 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro27.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro27:hover div.info-libro27 {
-    visibility: visible; }
-  div.libro27:hover p {
-    color: #EFEBC8; }
-
-div.info-libro27 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro27 h4 {
-    font-size: 1.2rem; }
-  div.info-libro27 h5, div.info-libro27 p {
-    font-size: 0.9rem; }
-
-div.libro28 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro28.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro28:hover div.info-libro28 {
-    visibility: visible; }
-  div.libro28:hover p {
-    color: #EFEBC8; }
-
-div.info-libro28 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro28 h4 {
-    font-size: 1.2rem; }
-  div.info-libro28 h5, div.info-libro28 p {
-    font-size: 0.9rem; }
-
-div.libro29 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro29.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro29:hover div.info-libro29 {
-    visibility: visible; }
-  div.libro29:hover p {
-    color: #EFEBC8; }
-
-div.info-libro29 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro29 h4 {
-    font-size: 1.2rem; }
-  div.info-libro29 h5, div.info-libro29 p {
-    font-size: 0.9rem; }
-
-div.libro30 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro30.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro30:hover div.info-libro30 {
-    visibility: visible; }
-  div.libro30:hover p {
-    color: #EFEBC8; }
-
-div.info-libro30 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro30 h4 {
-    font-size: 1.2rem; }
-  div.info-libro30 h5, div.info-libro30 p {
-    font-size: 0.9rem; }
-
-div.libro31 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro31.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro31:hover div.info-libro31 {
-    visibility: visible; }
-  div.libro31:hover p {
-    color: #EFEBC8; }
-
-div.info-libro31 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro31 h4 {
-    font-size: 1.2rem; }
-  div.info-libro31 h5, div.info-libro31 p {
-    font-size: 0.9rem; }
-
-div.libro32 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro32.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro32:hover div.info-libro32 {
-    visibility: visible; }
-  div.libro32:hover p {
-    color: #EFEBC8; }
-
-div.info-libro32 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro32 h4 {
-    font-size: 1.2rem; }
-  div.info-libro32 h5, div.info-libro32 p {
-    font-size: 0.9rem; }
-
-div.libro33 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro33.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro33:hover div.info-libro33 {
-    visibility: visible; }
-  div.libro33:hover p {
-    color: #EFEBC8; }
-
-div.info-libro33 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro33 h4 {
-    font-size: 1.2rem; }
-  div.info-libro33 h5, div.info-libro33 p {
-    font-size: 0.9rem; }
-
-div.libro34 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro34.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro34:hover div.info-libro34 {
-    visibility: visible; }
-  div.libro34:hover p {
-    color: #EFEBC8; }
-
-div.info-libro34 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro34 h4 {
-    font-size: 1.2rem; }
-  div.info-libro34 h5, div.info-libro34 p {
-    font-size: 0.9rem; }
-
-div.libro35 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro35.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro35:hover div.info-libro35 {
-    visibility: visible; }
-  div.libro35:hover p {
-    color: #EFEBC8; }
-
-div.info-libro35 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro35 h4 {
-    font-size: 1.2rem; }
-  div.info-libro35 h5, div.info-libro35 p {
-    font-size: 0.9rem; }
-
-div.libro36 {
-  width: 300px;
-  height: 450px;
-  background-image: url(../img/libros/libro36.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  div.libro36:hover div.info-libro36 {
-    visibility: visible; }
-  div.libro36:hover p {
-    color: #EFEBC8; }
-
-div.info-libro36 {
-  width: 300px;
-  height: 450px;
-  background-color: #2D575C;
-  border-radius: 10px;
-  visibility: hidden;
-  padding: 1rem; }
-  div.info-libro36 h4 {
-    font-size: 1.2rem; }
-  div.info-libro36 h5, div.info-libro36 p {
-    font-size: 0.9rem; }
-
-div.info-libro24, div.info-libro32 {
-  height: 550px; }
-
-div.info-libro36 {
-  height: 575px; }
-
-div.sin-foto {
-  width: 300px;
-  height: 450px;
-  border-radius: 10px;
-  border: solid;
-  padding: 1rem; }
-  div.sin-foto h4 {
-    font-size: 1.2rem; }
-  div.sin-foto h5, div.sin-foto p {
-    font-size: 0.9rem; }
-
-div.color-g-o {
-  border-color: #5D8B80; }
-
-div.color-g-c {
-  border-color: #EFEBC8; }
-
-div.color-a {
-  border-color: #2D575C; }
-
-div.color-v-o {
-  border-color: #1B4D41; }
-
-div.color-v-c {
-  border-color: #41B28E; }
-
-div.color-c {
-  border-color: #98D4E8; }
-
-div.color-n {
-  border-color: #E49925; }
-
-div#busquedas-laborales {
-  display: flex; }
-  div#busquedas-laborales h3, div#busquedas-laborales h4, div#busquedas-laborales h5 {
-    color: #EFEBC8; }
-  @media (max-width: 768px) {
-    div#busquedas-laborales {
-      display: block; } }
-
-div.libros {
-  display: grid;
-  grid-template-columns: repeat(3, 27%);
-  justify-content: space-around; }
-  @media (max-width: 992px) {
-    div.libros {
-      grid-template-columns: repeat(2, auto);
-      column-gap: 1rem; } }
-  @media (max-width: 576px) {
-    div.libros {
-      display: block;
-      padding-left: 2.5rem; }
-      div.libros h3 {
-        padding-right: 4.5rem; } }
-  div.libros section {
+      div.involucrate {
+        /* display: block;
+            text-align: center; */
+        gap: 0; } }
+  div.proyectos, div.busquedas {
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex; }
+    @media (max-width: 576px) {
+      div.proyectos, div.busquedas {
+        text-align: center;
+        display: block; } }
+    div.proyectos .item1, div.busquedas .item1 {
+      padding-right: 3rem; }
+      @media (max-width: 576px) {
+        div.proyectos .item1, div.busquedas .item1 {
+          padding-right: 0; } }
+  div.img {
     text-align: center; }
-    div.libros section > div {
-      /*  border: solid; */
-      margin-bottom: 1rem;
-      /* padding: 2rem 1rem 2rem 1rem; */ }
-
-div.secciones-biblioteca {
-  background-color: #E9725D;
-  padding: 1rem 0; }
-  div.secciones-biblioteca h2 {
-    color: #EFEBC8; }
+  div.valores {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-evenly; }
+    @media (max-width: 768px) {
+      div.valores {
+        display: block; } }
+  div.img-quienes-somos {
+    text-align: center; }
+  div.img-index1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/6.png);
+    border-radius: 50%;
+    margin-top: 2rem; }
+    div.img-index1:hover div.img-info {
+      visibility: visible; }
+  div.img-index2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/7m.jpg);
+    border-radius: 50%;
+    margin-top: 2rem; }
+    div.img-index2:hover div.img-info {
+      visibility: visible; }
+  div.img-index3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/8.jpg);
+    border-radius: 50%;
+    margin-top: 2rem; }
+    div.img-index3:hover div.img-info {
+      visibility: visible; }
+  div.img-info {
+    width: 300px;
+    height: 300px;
+    background-color: #2D575C;
+    opacity: 0.9;
+    border-radius: 50%;
+    visibility: hidden;
+    text-transform: uppercase; }
+    div.img-info a {
+      text-decoration: none; }
+    div.img-info h6 {
+      font-size: 2.5rem;
+      padding-top: 35%; }
+  div.libro1 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro1:hover div.info-libro1 {
+      visibility: visible; }
+    div.libro1:hover p {
+      color: #EFEBC8; }
+  div.info-libro1 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro1 h4 {
+      font-size: 1.2rem; }
+    div.info-libro1 h5, div.info-libro1 p {
+      font-size: 0.9rem; }
+  div.libro2 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro2:hover div.info-libro2 {
+      visibility: visible; }
+    div.libro2:hover p {
+      color: #EFEBC8; }
+  div.info-libro2 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro2 h4 {
+      font-size: 1.2rem; }
+    div.info-libro2 h5, div.info-libro2 p {
+      font-size: 0.9rem; }
+  div.libro3 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro3:hover div.info-libro3 {
+      visibility: visible; }
+    div.libro3:hover p {
+      color: #EFEBC8; }
+  div.info-libro3 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro3 h4 {
+      font-size: 1.2rem; }
+    div.info-libro3 h5, div.info-libro3 p {
+      font-size: 0.9rem; }
+  div.libro4 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro4:hover div.info-libro4 {
+      visibility: visible; }
+    div.libro4:hover p {
+      color: #EFEBC8; }
+  div.info-libro4 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro4 h4 {
+      font-size: 1.2rem; }
+    div.info-libro4 h5, div.info-libro4 p {
+      font-size: 0.9rem; }
+  div.libro5 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro5:hover div.info-libro5 {
+      visibility: visible; }
+    div.libro5:hover p {
+      color: #EFEBC8; }
+  div.info-libro5 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro5 h4 {
+      font-size: 1.2rem; }
+    div.info-libro5 h5, div.info-libro5 p {
+      font-size: 0.9rem; }
+  div.libro6 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro6:hover div.info-libro6 {
+      visibility: visible; }
+    div.libro6:hover p {
+      color: #EFEBC8; }
+  div.info-libro6 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro6 h4 {
+      font-size: 1.2rem; }
+    div.info-libro6 h5, div.info-libro6 p {
+      font-size: 0.9rem; }
+  div.libro7 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro7.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro7:hover div.info-libro7 {
+      visibility: visible; }
+    div.libro7:hover p {
+      color: #EFEBC8; }
+  div.info-libro7 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro7 h4 {
+      font-size: 1.2rem; }
+    div.info-libro7 h5, div.info-libro7 p {
+      font-size: 0.9rem; }
+  div.libro8 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro8.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro8:hover div.info-libro8 {
+      visibility: visible; }
+    div.libro8:hover p {
+      color: #EFEBC8; }
+  div.info-libro8 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro8 h4 {
+      font-size: 1.2rem; }
+    div.info-libro8 h5, div.info-libro8 p {
+      font-size: 0.9rem; }
+  div.libro9 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro9.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro9:hover div.info-libro9 {
+      visibility: visible; }
+    div.libro9:hover p {
+      color: #EFEBC8; }
+  div.info-libro9 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro9 h4 {
+      font-size: 1.2rem; }
+    div.info-libro9 h5, div.info-libro9 p {
+      font-size: 0.9rem; }
+  div.libro10 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro10.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro10:hover div.info-libro10 {
+      visibility: visible; }
+    div.libro10:hover p {
+      color: #EFEBC8; }
+  div.info-libro10 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro10 h4 {
+      font-size: 1.2rem; }
+    div.info-libro10 h5, div.info-libro10 p {
+      font-size: 0.9rem; }
+  div.libro11 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro11.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro11:hover div.info-libro11 {
+      visibility: visible; }
+    div.libro11:hover p {
+      color: #EFEBC8; }
+  div.info-libro11 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro11 h4 {
+      font-size: 1.2rem; }
+    div.info-libro11 h5, div.info-libro11 p {
+      font-size: 0.9rem; }
+  div.libro12 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro12.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro12:hover div.info-libro12 {
+      visibility: visible; }
+    div.libro12:hover p {
+      color: #EFEBC8; }
+  div.info-libro12 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro12 h4 {
+      font-size: 1.2rem; }
+    div.info-libro12 h5, div.info-libro12 p {
+      font-size: 0.9rem; }
+  div.libro13 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro13.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro13:hover div.info-libro13 {
+      visibility: visible; }
+    div.libro13:hover p {
+      color: #EFEBC8; }
+  div.info-libro13 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro13 h4 {
+      font-size: 1.2rem; }
+    div.info-libro13 h5, div.info-libro13 p {
+      font-size: 0.9rem; }
+  div.libro14 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro14.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro14:hover div.info-libro14 {
+      visibility: visible; }
+    div.libro14:hover p {
+      color: #EFEBC8; }
+  div.info-libro14 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro14 h4 {
+      font-size: 1.2rem; }
+    div.info-libro14 h5, div.info-libro14 p {
+      font-size: 0.9rem; }
+  div.libro15 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro15.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro15:hover div.info-libro15 {
+      visibility: visible; }
+    div.libro15:hover p {
+      color: #EFEBC8; }
+  div.info-libro15 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro15 h4 {
+      font-size: 1.2rem; }
+    div.info-libro15 h5, div.info-libro15 p {
+      font-size: 0.9rem; }
+  div.libro16 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro16.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro16:hover div.info-libro16 {
+      visibility: visible; }
+    div.libro16:hover p {
+      color: #EFEBC8; }
+  div.info-libro16 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro16 h4 {
+      font-size: 1.2rem; }
+    div.info-libro16 h5, div.info-libro16 p {
+      font-size: 0.9rem; }
+  div.libro17 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro17.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro17:hover div.info-libro17 {
+      visibility: visible; }
+    div.libro17:hover p {
+      color: #EFEBC8; }
+  div.info-libro17 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro17 h4 {
+      font-size: 1.2rem; }
+    div.info-libro17 h5, div.info-libro17 p {
+      font-size: 0.9rem; }
+  div.libro18 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro18.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro18:hover div.info-libro18 {
+      visibility: visible; }
+    div.libro18:hover p {
+      color: #EFEBC8; }
+  div.info-libro18 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro18 h4 {
+      font-size: 1.2rem; }
+    div.info-libro18 h5, div.info-libro18 p {
+      font-size: 0.9rem; }
+  div.libro19 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro19.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro19:hover div.info-libro19 {
+      visibility: visible; }
+    div.libro19:hover p {
+      color: #EFEBC8; }
+  div.info-libro19 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro19 h4 {
+      font-size: 1.2rem; }
+    div.info-libro19 h5, div.info-libro19 p {
+      font-size: 0.9rem; }
+  div.libro20 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro20.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro20:hover div.info-libro20 {
+      visibility: visible; }
+    div.libro20:hover p {
+      color: #EFEBC8; }
+  div.info-libro20 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro20 h4 {
+      font-size: 1.2rem; }
+    div.info-libro20 h5, div.info-libro20 p {
+      font-size: 0.9rem; }
+  div.libro21 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro21.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro21:hover div.info-libro21 {
+      visibility: visible; }
+    div.libro21:hover p {
+      color: #EFEBC8; }
+  div.info-libro21 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro21 h4 {
+      font-size: 1.2rem; }
+    div.info-libro21 h5, div.info-libro21 p {
+      font-size: 0.9rem; }
+  div.libro22 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro22.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro22:hover div.info-libro22 {
+      visibility: visible; }
+    div.libro22:hover p {
+      color: #EFEBC8; }
+  div.info-libro22 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro22 h4 {
+      font-size: 1.2rem; }
+    div.info-libro22 h5, div.info-libro22 p {
+      font-size: 0.9rem; }
+  div.libro23 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro23.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro23:hover div.info-libro23 {
+      visibility: visible; }
+    div.libro23:hover p {
+      color: #EFEBC8; }
+  div.info-libro23 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro23 h4 {
+      font-size: 1.2rem; }
+    div.info-libro23 h5, div.info-libro23 p {
+      font-size: 0.9rem; }
+  div.libro24 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro24.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro24:hover div.info-libro24 {
+      visibility: visible; }
+    div.libro24:hover p {
+      color: #EFEBC8; }
+  div.info-libro24 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro24 h4 {
+      font-size: 1.2rem; }
+    div.info-libro24 h5, div.info-libro24 p {
+      font-size: 0.9rem; }
+  div.libro25 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro25.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro25:hover div.info-libro25 {
+      visibility: visible; }
+    div.libro25:hover p {
+      color: #EFEBC8; }
+  div.info-libro25 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro25 h4 {
+      font-size: 1.2rem; }
+    div.info-libro25 h5, div.info-libro25 p {
+      font-size: 0.9rem; }
+  div.libro26 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro26.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro26:hover div.info-libro26 {
+      visibility: visible; }
+    div.libro26:hover p {
+      color: #EFEBC8; }
+  div.info-libro26 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro26 h4 {
+      font-size: 1.2rem; }
+    div.info-libro26 h5, div.info-libro26 p {
+      font-size: 0.9rem; }
+  div.libro27 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro27.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro27:hover div.info-libro27 {
+      visibility: visible; }
+    div.libro27:hover p {
+      color: #EFEBC8; }
+  div.info-libro27 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro27 h4 {
+      font-size: 1.2rem; }
+    div.info-libro27 h5, div.info-libro27 p {
+      font-size: 0.9rem; }
+  div.libro28 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro28.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro28:hover div.info-libro28 {
+      visibility: visible; }
+    div.libro28:hover p {
+      color: #EFEBC8; }
+  div.info-libro28 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro28 h4 {
+      font-size: 1.2rem; }
+    div.info-libro28 h5, div.info-libro28 p {
+      font-size: 0.9rem; }
+  div.libro29 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro29.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro29:hover div.info-libro29 {
+      visibility: visible; }
+    div.libro29:hover p {
+      color: #EFEBC8; }
+  div.info-libro29 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro29 h4 {
+      font-size: 1.2rem; }
+    div.info-libro29 h5, div.info-libro29 p {
+      font-size: 0.9rem; }
+  div.libro30 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro30.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro30:hover div.info-libro30 {
+      visibility: visible; }
+    div.libro30:hover p {
+      color: #EFEBC8; }
+  div.info-libro30 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro30 h4 {
+      font-size: 1.2rem; }
+    div.info-libro30 h5, div.info-libro30 p {
+      font-size: 0.9rem; }
+  div.libro31 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro31.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro31:hover div.info-libro31 {
+      visibility: visible; }
+    div.libro31:hover p {
+      color: #EFEBC8; }
+  div.info-libro31 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro31 h4 {
+      font-size: 1.2rem; }
+    div.info-libro31 h5, div.info-libro31 p {
+      font-size: 0.9rem; }
+  div.libro32 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro32.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro32:hover div.info-libro32 {
+      visibility: visible; }
+    div.libro32:hover p {
+      color: #EFEBC8; }
+  div.info-libro32 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro32 h4 {
+      font-size: 1.2rem; }
+    div.info-libro32 h5, div.info-libro32 p {
+      font-size: 0.9rem; }
+  div.libro33 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro33.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro33:hover div.info-libro33 {
+      visibility: visible; }
+    div.libro33:hover p {
+      color: #EFEBC8; }
+  div.info-libro33 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro33 h4 {
+      font-size: 1.2rem; }
+    div.info-libro33 h5, div.info-libro33 p {
+      font-size: 0.9rem; }
+  div.libro34 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro34.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro34:hover div.info-libro34 {
+      visibility: visible; }
+    div.libro34:hover p {
+      color: #EFEBC8; }
+  div.info-libro34 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro34 h4 {
+      font-size: 1.2rem; }
+    div.info-libro34 h5, div.info-libro34 p {
+      font-size: 0.9rem; }
+  div.libro35 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro35.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro35:hover div.info-libro35 {
+      visibility: visible; }
+    div.libro35:hover p {
+      color: #EFEBC8; }
+  div.info-libro35 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro35 h4 {
+      font-size: 1.2rem; }
+    div.info-libro35 h5, div.info-libro35 p {
+      font-size: 0.9rem; }
+  div.libro36 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/libros/libro36.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.libro36:hover div.info-libro36 {
+      visibility: visible; }
+    div.libro36:hover p {
+      color: #EFEBC8; }
+  div.info-libro36 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-libro36 h4 {
+      font-size: 1.2rem; }
+    div.info-libro36 h5, div.info-libro36 p {
+      font-size: 0.9rem; }
+  div.info-libro24, div.info-libro32 {
+    height: 550px; }
+  div.info-libro36 {
+    height: 575px; }
+  div.sin-foto {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    text-align: center; }
+    div.sin-foto h4 {
+      font-size: 1.2rem; }
+    div.sin-foto h5, div.sin-foto p {
+      font-size: 0.9rem; }
+  div#busquedas-laborales {
+    display: flex; }
+    div#busquedas-laborales h3, div#busquedas-laborales h4, div#busquedas-laborales h5 {
+      color: #EFEBC8; }
+    @media (max-width: 768px) {
+      div#busquedas-laborales {
+        display: block; } }
+  div.libros, div.documentales {
+    display: grid;
+    grid-template-columns: repeat(3, 27%);
+    justify-content: space-around; }
+    @media (max-width: 992px) {
+      div.libros, div.documentales {
+        grid-template-columns: repeat(2, auto);
+        column-gap: 1rem; } }
+    @media (max-width: 576px) {
+      div.libros, div.documentales {
+        display: block;
+        padding-left: 2.5rem; }
+        div.libros h3, div.documentales h3 {
+          padding-right: 4.5rem; } }
+    div.libros section, div.documentales section {
+      text-align: center; }
+      div.libros section > div, div.documentales section > div {
+        /*  border: solid; */
+        margin-bottom: 1rem;
+        /* padding: 2rem 1rem 2rem 1rem; */ }
+  div.documental1 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental1:hover div.info-documental1 {
+      visibility: visible; }
+    div.documental1:hover p {
+      color: #EFEBC8; }
+  div.info-documental1 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental1 h4 {
+      font-size: 1.2rem; }
+    div.info-documental1 h5, div.info-documental1 p {
+      font-size: 0.9rem; }
+  div.documental2 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental2:hover div.info-documental2 {
+      visibility: visible; }
+    div.documental2:hover p {
+      color: #EFEBC8; }
+  div.info-documental2 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental2 h4 {
+      font-size: 1.2rem; }
+    div.info-documental2 h5, div.info-documental2 p {
+      font-size: 0.9rem; }
+  div.documental3 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental3:hover div.info-documental3 {
+      visibility: visible; }
+    div.documental3:hover p {
+      color: #EFEBC8; }
+  div.info-documental3 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental3 h4 {
+      font-size: 1.2rem; }
+    div.info-documental3 h5, div.info-documental3 p {
+      font-size: 0.9rem; }
+  div.documental4 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental4:hover div.info-documental4 {
+      visibility: visible; }
+    div.documental4:hover p {
+      color: #EFEBC8; }
+  div.info-documental4 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental4 h4 {
+      font-size: 1.2rem; }
+    div.info-documental4 h5, div.info-documental4 p {
+      font-size: 0.9rem; }
+  div.documental5 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental5:hover div.info-documental5 {
+      visibility: visible; }
+    div.documental5:hover p {
+      color: #EFEBC8; }
+  div.info-documental5 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental5 h4 {
+      font-size: 1.2rem; }
+    div.info-documental5 h5, div.info-documental5 p {
+      font-size: 0.9rem; }
+  div.documental6 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental6:hover div.info-documental6 {
+      visibility: visible; }
+    div.documental6:hover p {
+      color: #EFEBC8; }
+  div.info-documental6 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental6 h4 {
+      font-size: 1.2rem; }
+    div.info-documental6 h5, div.info-documental6 p {
+      font-size: 0.9rem; }
+  div.documental7 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental7:hover div.info-documental7 {
+      visibility: visible; }
+    div.documental7:hover p {
+      color: #EFEBC8; }
+  div.info-documental7 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental7 h4 {
+      font-size: 1.2rem; }
+    div.info-documental7 h5, div.info-documental7 p {
+      font-size: 0.9rem; }
+  div.documental8 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental8:hover div.info-documental8 {
+      visibility: visible; }
+    div.documental8:hover p {
+      color: #EFEBC8; }
+  div.info-documental8 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental8 h4 {
+      font-size: 1.2rem; }
+    div.info-documental8 h5, div.info-documental8 p {
+      font-size: 0.9rem; }
+  div.documental9 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental9:hover div.info-documental9 {
+      visibility: visible; }
+    div.documental9:hover p {
+      color: #EFEBC8; }
+  div.info-documental9 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental9 h4 {
+      font-size: 1.2rem; }
+    div.info-documental9 h5, div.info-documental9 p {
+      font-size: 0.9rem; }
+  div.documental10 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental10:hover div.info-documental10 {
+      visibility: visible; }
+    div.documental10:hover p {
+      color: #EFEBC8; }
+  div.info-documental10 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental10 h4 {
+      font-size: 1.2rem; }
+    div.info-documental10 h5, div.info-documental10 p {
+      font-size: 0.9rem; }
+  div.documental11 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental11:hover div.info-documental11 {
+      visibility: visible; }
+    div.documental11:hover p {
+      color: #EFEBC8; }
+  div.info-documental11 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental11 h4 {
+      font-size: 1.2rem; }
+    div.info-documental11 h5, div.info-documental11 p {
+      font-size: 0.9rem; }
+  div.documental12 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental12:hover div.info-documental12 {
+      visibility: visible; }
+    div.documental12:hover p {
+      color: #EFEBC8; }
+  div.info-documental12 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental12 h4 {
+      font-size: 1.2rem; }
+    div.info-documental12 h5, div.info-documental12 p {
+      font-size: 0.9rem; }
+  div.documental13 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental13:hover div.info-documental13 {
+      visibility: visible; }
+    div.documental13:hover p {
+      color: #EFEBC8; }
+  div.info-documental13 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental13 h4 {
+      font-size: 1.2rem; }
+    div.info-documental13 h5, div.info-documental13 p {
+      font-size: 0.9rem; }
+  div.documental14 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental14:hover div.info-documental14 {
+      visibility: visible; }
+    div.documental14:hover p {
+      color: #EFEBC8; }
+  div.info-documental14 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental14 h4 {
+      font-size: 1.2rem; }
+    div.info-documental14 h5, div.info-documental14 p {
+      font-size: 0.9rem; }
+  div.documental15 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental15:hover div.info-documental15 {
+      visibility: visible; }
+    div.documental15:hover p {
+      color: #EFEBC8; }
+  div.info-documental15 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental15 h4 {
+      font-size: 1.2rem; }
+    div.info-documental15 h5, div.info-documental15 p {
+      font-size: 0.9rem; }
+  div.documental16 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental16.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental16:hover div.info-documental16 {
+      visibility: visible; }
+    div.documental16:hover p {
+      color: #EFEBC8; }
+  div.info-documental16 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental16 h4 {
+      font-size: 1.2rem; }
+    div.info-documental16 h5, div.info-documental16 p {
+      font-size: 0.9rem; }
+  div.documental17 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental17:hover div.info-documental17 {
+      visibility: visible; }
+    div.documental17:hover p {
+      color: #EFEBC8; }
+  div.info-documental17 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental17 h4 {
+      font-size: 1.2rem; }
+    div.info-documental17 h5, div.info-documental17 p {
+      font-size: 0.9rem; }
+  div.documental18 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental18:hover div.info-documental18 {
+      visibility: visible; }
+    div.documental18:hover p {
+      color: #EFEBC8; }
+  div.info-documental18 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental18 h4 {
+      font-size: 1.2rem; }
+    div.info-documental18 h5, div.info-documental18 p {
+      font-size: 0.9rem; }
+  div.documental19 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental19:hover div.info-documental19 {
+      visibility: visible; }
+    div.documental19:hover p {
+      color: #EFEBC8; }
+  div.info-documental19 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental19 h4 {
+      font-size: 1.2rem; }
+    div.info-documental19 h5, div.info-documental19 p {
+      font-size: 0.9rem; }
+  div.documental20 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental20.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental20:hover div.info-documental20 {
+      visibility: visible; }
+    div.documental20:hover p {
+      color: #EFEBC8; }
+  div.info-documental20 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental20 h4 {
+      font-size: 1.2rem; }
+    div.info-documental20 h5, div.info-documental20 p {
+      font-size: 0.9rem; }
+  div.documental21 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental21:hover div.info-documental21 {
+      visibility: visible; }
+    div.documental21:hover p {
+      color: #EFEBC8; }
+  div.info-documental21 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental21 h4 {
+      font-size: 1.2rem; }
+    div.info-documental21 h5, div.info-documental21 p {
+      font-size: 0.9rem; }
+  div.documental22 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental22:hover div.info-documental22 {
+      visibility: visible; }
+    div.documental22:hover p {
+      color: #EFEBC8; }
+  div.info-documental22 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental22 h4 {
+      font-size: 1.2rem; }
+    div.info-documental22 h5, div.info-documental22 p {
+      font-size: 0.9rem; }
+  div.documental23 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental23.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental23:hover div.info-documental23 {
+      visibility: visible; }
+    div.documental23:hover p {
+      color: #EFEBC8; }
+  div.info-documental23 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental23 h4 {
+      font-size: 1.2rem; }
+    div.info-documental23 h5, div.info-documental23 p {
+      font-size: 0.9rem; }
+  div.documental24 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental24.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental24:hover div.info-documental24 {
+      visibility: visible; }
+    div.documental24:hover p {
+      color: #EFEBC8; }
+  div.info-documental24 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental24 h4 {
+      font-size: 1.2rem; }
+    div.info-documental24 h5, div.info-documental24 p {
+      font-size: 0.9rem; }
+  div.documental25 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental25.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental25:hover div.info-documental25 {
+      visibility: visible; }
+    div.documental25:hover p {
+      color: #EFEBC8; }
+  div.info-documental25 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental25 h4 {
+      font-size: 1.2rem; }
+    div.info-documental25 h5, div.info-documental25 p {
+      font-size: 0.9rem; }
+  div.documental26 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental26.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental26:hover div.info-documental26 {
+      visibility: visible; }
+    div.documental26:hover p {
+      color: #EFEBC8; }
+  div.info-documental26 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental26 h4 {
+      font-size: 1.2rem; }
+    div.info-documental26 h5, div.info-documental26 p {
+      font-size: 0.9rem; }
+  div.documental27 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental27.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental27:hover div.info-documental27 {
+      visibility: visible; }
+    div.documental27:hover p {
+      color: #EFEBC8; }
+  div.info-documental27 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental27 h4 {
+      font-size: 1.2rem; }
+    div.info-documental27 h5, div.info-documental27 p {
+      font-size: 0.9rem; }
+  div.documental28 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental28.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental28:hover div.info-documental28 {
+      visibility: visible; }
+    div.documental28:hover p {
+      color: #EFEBC8; }
+  div.info-documental28 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental28 h4 {
+      font-size: 1.2rem; }
+    div.info-documental28 h5, div.info-documental28 p {
+      font-size: 0.9rem; }
+  div.documental29 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental29.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental29:hover div.info-documental29 {
+      visibility: visible; }
+    div.documental29:hover p {
+      color: #EFEBC8; }
+  div.info-documental29 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental29 h4 {
+      font-size: 1.2rem; }
+    div.info-documental29 h5, div.info-documental29 p {
+      font-size: 0.9rem; }
+  div.documental30 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental30.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental30:hover div.info-documental30 {
+      visibility: visible; }
+    div.documental30:hover p {
+      color: #EFEBC8; }
+  div.info-documental30 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental30 h4 {
+      font-size: 1.2rem; }
+    div.info-documental30 h5, div.info-documental30 p {
+      font-size: 0.9rem; }
+  div.documental31 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental31.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental31:hover div.info-documental31 {
+      visibility: visible; }
+    div.documental31:hover p {
+      color: #EFEBC8; }
+  div.info-documental31 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental31 h4 {
+      font-size: 1.2rem; }
+    div.info-documental31 h5, div.info-documental31 p {
+      font-size: 0.9rem; }
+  div.documental32 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental32.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental32:hover div.info-documental32 {
+      visibility: visible; }
+    div.documental32:hover p {
+      color: #EFEBC8; }
+  div.info-documental32 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental32 h4 {
+      font-size: 1.2rem; }
+    div.info-documental32 h5, div.info-documental32 p {
+      font-size: 0.9rem; }
+  div.documental33 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental33.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental33:hover div.info-documental33 {
+      visibility: visible; }
+    div.documental33:hover p {
+      color: #EFEBC8; }
+  div.info-documental33 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental33 h4 {
+      font-size: 1.2rem; }
+    div.info-documental33 h5, div.info-documental33 p {
+      font-size: 0.9rem; }
+  div.documental34 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental34.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental34:hover div.info-documental34 {
+      visibility: visible; }
+    div.documental34:hover p {
+      color: #EFEBC8; }
+  div.info-documental34 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental34 h4 {
+      font-size: 1.2rem; }
+    div.info-documental34 h5, div.info-documental34 p {
+      font-size: 0.9rem; }
+  div.documental35 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental35.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental35:hover div.info-documental35 {
+      visibility: visible; }
+    div.documental35:hover p {
+      color: #EFEBC8; }
+  div.info-documental35 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental35 h4 {
+      font-size: 1.2rem; }
+    div.info-documental35 h5, div.info-documental35 p {
+      font-size: 0.9rem; }
+  div.documental36 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/documentales/documental36.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.documental36:hover div.info-documental36 {
+      visibility: visible; }
+    div.documental36:hover p {
+      color: #EFEBC8; }
+  div.info-documental36 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-documental36 h4 {
+      font-size: 1.2rem; }
+    div.info-documental36 h5, div.info-documental36 p {
+      font-size: 0.9rem; }
+  div.secciones-biblioteca {
+    background-color: #E9725D;
+    padding: 1rem 0; }
+    div.secciones-biblioteca h2 {
+      color: #EFEBC8; }
 
 img.logo-navbar {
   width: 250px; }
@@ -1392,6 +2244,8 @@ div.titulo {
   display: flex;
   align-items: center;
   gap: 1rem; }
+  div.titulo a {
+    font-family: "Righteous", cursive; }
 
 .libros-destacados {
   margin-bottom: 3rem; }

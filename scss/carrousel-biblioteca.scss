@@ -19,6 +19,9 @@ div.titulo{
     display: flex;
     align-items: center;
     gap: 1rem;
+    a{
+        font-family: $sub-destacada;
+    }
 }
 
 .libros-destacados{

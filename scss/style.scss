@@ -222,6 +222,8 @@ div{
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
             &:hover{
                 div.info-#{$libro}{
                     visibility: visible;
@@ -256,8 +258,9 @@ div{
         width: 300px;
         height: 450px;
         border-radius: 10px;
-        border: solid;
         padding: 1rem;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+        text-align: center;
         h4{
             font-size: 1.2rem;
         }
@@ -265,7 +268,7 @@ div{
             font-size: 0.9rem;
         }
     }
-    &.color-g-o{
+    /* &.color-g-o{
         border-color: $gris-oscuro;
     }
     &.color-g-c{
@@ -285,7 +288,7 @@ div{
     }
     &.color-n{
         border-color: $naranja;
-    }
+    } */
     &#busquedas-laborales{
         display: flex;
         h3, h4, h5{
@@ -295,7 +298,7 @@ div{
             display: block;
         }
     }
-    &.libros{
+    &.libros, &.documentales{
         display: grid;
         grid-template-columns: repeat(3, 27%);
         justify-content: space-around;
@@ -318,6 +321,41 @@ div{
                 /* padding: 2rem 1rem 2rem 1rem; */
             }
         }
+    }
+    $documentales: documental1, documental2, documental3, documental4, documental5, documental6, documental7, documental8, documental9, documental10, documental11, documental12, documental13, documental14, documental15, documental16, documental17, documental18, documental19, documental20, documental21, documental22, documental23, documental24, documental25, documental26, documental27, documental28, documental29, documental30, documental31, documental32, documental33, documental34, documental35, documental36;
+    @each $documental in $documentales{
+        &.#{$documental}{
+            width: 300px;
+            height: 450px;
+            background-image: url(../img/documentales/#{$documental}.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            &:hover{
+                div.info-#{$documental}{
+                    visibility: visible;
+                }
+                p{
+                    color: $gris-claro;
+                }
+            }
+        }
+        &.info-#{$documental}{
+            width: 300px;
+            height: 450px;
+            background-color: $azul;
+            border-radius: 10px;
+            visibility: hidden;
+            padding: 1rem;
+            h4{
+                font-size: 1.2rem;
+            }
+            h5, p{  
+                font-size: 0.9rem;
+            }
+            }
     }
     &.secciones-biblioteca{
         background-color: $primary;

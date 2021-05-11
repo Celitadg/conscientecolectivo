@@ -298,7 +298,7 @@ div{
             display: block;
         }
     }
-    &.libros, &.documentales, &.peliculas{
+    &.libros, &.documentales, &.peliculas, &.mas{
         display: grid;
         grid-template-columns: repeat(3, 27%);
         justify-content: space-around;
@@ -378,6 +378,42 @@ div{
             }
         }
         &.info-#{$peli}{
+            width: 300px;
+            height: 450px;
+            background-color: $azul;
+            border-radius: 10px;
+            visibility: hidden;
+            padding: 1rem;
+            h4{
+                font-size: 1.2rem;
+            }
+            h5, p{  
+                font-size: 0.9rem;
+            }
+            }
+    }
+    
+    $mas-recursos: mas1, mas2, mas3, mas4, mas5, mas6, mas7, mas8, mas9, mas10, mas11, mas12, mas13, mas14, mas15, mas16, mas17, mas18, mas19, mas20, mas21, mas22, mas23, mas24, mas25, mas26, mas27, mas28, mas29, mas30, mas31, mas32, mas33, mas34, mas35, mas36;
+    @each $mas in $mas-recursos {
+        &.#{$mas}{
+            width: 300px;
+            height: 450px;
+            background-image: url(../img/mas/#{$mas}.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            &:hover{
+                div.info-#{$mas}{
+                    visibility: visible;
+                }
+                p{
+                    color: $gris-claro;
+                }
+            }
+        }
+        &.info-#{$mas}{
             width: 300px;
             height: 450px;
             background-color: $azul;

@@ -1063,23 +1063,23 @@ div {
     @media (max-width: 768px) {
       div#busquedas-laborales {
         display: block; } }
-  div.libros, div.documentales, div.peliculas {
+  div.libros, div.documentales, div.peliculas, div.mas {
     display: grid;
     grid-template-columns: repeat(3, 27%);
     justify-content: space-around; }
     @media (max-width: 992px) {
-      div.libros, div.documentales, div.peliculas {
+      div.libros, div.documentales, div.peliculas, div.mas {
         grid-template-columns: repeat(2, auto);
         column-gap: 1rem; } }
     @media (max-width: 576px) {
-      div.libros, div.documentales, div.peliculas {
+      div.libros, div.documentales, div.peliculas, div.mas {
         display: block;
         padding-left: 2.5rem; }
-        div.libros h3, div.documentales h3, div.peliculas h3 {
+        div.libros h3, div.documentales h3, div.peliculas h3, div.mas h3 {
           padding-right: 4.5rem; } }
-    div.libros section, div.documentales section, div.peliculas section {
+    div.libros section, div.documentales section, div.peliculas section, div.mas section {
       text-align: center; }
-      div.libros section > div, div.documentales section > div, div.peliculas section > div {
+      div.libros section > div, div.documentales section > div, div.peliculas section > div, div.mas section > div {
         /*  border: solid; */
         margin-bottom: 1rem;
         /* padding: 2rem 1rem 2rem 1rem; */ }
@@ -2810,6 +2810,870 @@ div {
     div.info-peli36 h4 {
       font-size: 1.2rem; }
     div.info-peli36 h5, div.info-peli36 p {
+      font-size: 0.9rem; }
+  div.mas1 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas1:hover div.info-mas1 {
+      visibility: visible; }
+    div.mas1:hover p {
+      color: #EFEBC8; }
+  div.info-mas1 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas1 h4 {
+      font-size: 1.2rem; }
+    div.info-mas1 h5, div.info-mas1 p {
+      font-size: 0.9rem; }
+  div.mas2 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas2:hover div.info-mas2 {
+      visibility: visible; }
+    div.mas2:hover p {
+      color: #EFEBC8; }
+  div.info-mas2 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas2 h4 {
+      font-size: 1.2rem; }
+    div.info-mas2 h5, div.info-mas2 p {
+      font-size: 0.9rem; }
+  div.mas3 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas3:hover div.info-mas3 {
+      visibility: visible; }
+    div.mas3:hover p {
+      color: #EFEBC8; }
+  div.info-mas3 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas3 h4 {
+      font-size: 1.2rem; }
+    div.info-mas3 h5, div.info-mas3 p {
+      font-size: 0.9rem; }
+  div.mas4 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas4:hover div.info-mas4 {
+      visibility: visible; }
+    div.mas4:hover p {
+      color: #EFEBC8; }
+  div.info-mas4 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas4 h4 {
+      font-size: 1.2rem; }
+    div.info-mas4 h5, div.info-mas4 p {
+      font-size: 0.9rem; }
+  div.mas5 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas5:hover div.info-mas5 {
+      visibility: visible; }
+    div.mas5:hover p {
+      color: #EFEBC8; }
+  div.info-mas5 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas5 h4 {
+      font-size: 1.2rem; }
+    div.info-mas5 h5, div.info-mas5 p {
+      font-size: 0.9rem; }
+  div.mas6 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas6:hover div.info-mas6 {
+      visibility: visible; }
+    div.mas6:hover p {
+      color: #EFEBC8; }
+  div.info-mas6 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas6 h4 {
+      font-size: 1.2rem; }
+    div.info-mas6 h5, div.info-mas6 p {
+      font-size: 0.9rem; }
+  div.mas7 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas7:hover div.info-mas7 {
+      visibility: visible; }
+    div.mas7:hover p {
+      color: #EFEBC8; }
+  div.info-mas7 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas7 h4 {
+      font-size: 1.2rem; }
+    div.info-mas7 h5, div.info-mas7 p {
+      font-size: 0.9rem; }
+  div.mas8 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas8:hover div.info-mas8 {
+      visibility: visible; }
+    div.mas8:hover p {
+      color: #EFEBC8; }
+  div.info-mas8 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas8 h4 {
+      font-size: 1.2rem; }
+    div.info-mas8 h5, div.info-mas8 p {
+      font-size: 0.9rem; }
+  div.mas9 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas9:hover div.info-mas9 {
+      visibility: visible; }
+    div.mas9:hover p {
+      color: #EFEBC8; }
+  div.info-mas9 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas9 h4 {
+      font-size: 1.2rem; }
+    div.info-mas9 h5, div.info-mas9 p {
+      font-size: 0.9rem; }
+  div.mas10 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas10:hover div.info-mas10 {
+      visibility: visible; }
+    div.mas10:hover p {
+      color: #EFEBC8; }
+  div.info-mas10 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas10 h4 {
+      font-size: 1.2rem; }
+    div.info-mas10 h5, div.info-mas10 p {
+      font-size: 0.9rem; }
+  div.mas11 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas11:hover div.info-mas11 {
+      visibility: visible; }
+    div.mas11:hover p {
+      color: #EFEBC8; }
+  div.info-mas11 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas11 h4 {
+      font-size: 1.2rem; }
+    div.info-mas11 h5, div.info-mas11 p {
+      font-size: 0.9rem; }
+  div.mas12 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas12:hover div.info-mas12 {
+      visibility: visible; }
+    div.mas12:hover p {
+      color: #EFEBC8; }
+  div.info-mas12 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas12 h4 {
+      font-size: 1.2rem; }
+    div.info-mas12 h5, div.info-mas12 p {
+      font-size: 0.9rem; }
+  div.mas13 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas13:hover div.info-mas13 {
+      visibility: visible; }
+    div.mas13:hover p {
+      color: #EFEBC8; }
+  div.info-mas13 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas13 h4 {
+      font-size: 1.2rem; }
+    div.info-mas13 h5, div.info-mas13 p {
+      font-size: 0.9rem; }
+  div.mas14 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas14:hover div.info-mas14 {
+      visibility: visible; }
+    div.mas14:hover p {
+      color: #EFEBC8; }
+  div.info-mas14 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas14 h4 {
+      font-size: 1.2rem; }
+    div.info-mas14 h5, div.info-mas14 p {
+      font-size: 0.9rem; }
+  div.mas15 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas15:hover div.info-mas15 {
+      visibility: visible; }
+    div.mas15:hover p {
+      color: #EFEBC8; }
+  div.info-mas15 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas15 h4 {
+      font-size: 1.2rem; }
+    div.info-mas15 h5, div.info-mas15 p {
+      font-size: 0.9rem; }
+  div.mas16 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas16.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas16:hover div.info-mas16 {
+      visibility: visible; }
+    div.mas16:hover p {
+      color: #EFEBC8; }
+  div.info-mas16 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas16 h4 {
+      font-size: 1.2rem; }
+    div.info-mas16 h5, div.info-mas16 p {
+      font-size: 0.9rem; }
+  div.mas17 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas17:hover div.info-mas17 {
+      visibility: visible; }
+    div.mas17:hover p {
+      color: #EFEBC8; }
+  div.info-mas17 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas17 h4 {
+      font-size: 1.2rem; }
+    div.info-mas17 h5, div.info-mas17 p {
+      font-size: 0.9rem; }
+  div.mas18 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas18:hover div.info-mas18 {
+      visibility: visible; }
+    div.mas18:hover p {
+      color: #EFEBC8; }
+  div.info-mas18 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas18 h4 {
+      font-size: 1.2rem; }
+    div.info-mas18 h5, div.info-mas18 p {
+      font-size: 0.9rem; }
+  div.mas19 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas19:hover div.info-mas19 {
+      visibility: visible; }
+    div.mas19:hover p {
+      color: #EFEBC8; }
+  div.info-mas19 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas19 h4 {
+      font-size: 1.2rem; }
+    div.info-mas19 h5, div.info-mas19 p {
+      font-size: 0.9rem; }
+  div.mas20 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas20.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas20:hover div.info-mas20 {
+      visibility: visible; }
+    div.mas20:hover p {
+      color: #EFEBC8; }
+  div.info-mas20 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas20 h4 {
+      font-size: 1.2rem; }
+    div.info-mas20 h5, div.info-mas20 p {
+      font-size: 0.9rem; }
+  div.mas21 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas21:hover div.info-mas21 {
+      visibility: visible; }
+    div.mas21:hover p {
+      color: #EFEBC8; }
+  div.info-mas21 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas21 h4 {
+      font-size: 1.2rem; }
+    div.info-mas21 h5, div.info-mas21 p {
+      font-size: 0.9rem; }
+  div.mas22 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas22:hover div.info-mas22 {
+      visibility: visible; }
+    div.mas22:hover p {
+      color: #EFEBC8; }
+  div.info-mas22 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas22 h4 {
+      font-size: 1.2rem; }
+    div.info-mas22 h5, div.info-mas22 p {
+      font-size: 0.9rem; }
+  div.mas23 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas23.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas23:hover div.info-mas23 {
+      visibility: visible; }
+    div.mas23:hover p {
+      color: #EFEBC8; }
+  div.info-mas23 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas23 h4 {
+      font-size: 1.2rem; }
+    div.info-mas23 h5, div.info-mas23 p {
+      font-size: 0.9rem; }
+  div.mas24 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas24.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas24:hover div.info-mas24 {
+      visibility: visible; }
+    div.mas24:hover p {
+      color: #EFEBC8; }
+  div.info-mas24 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas24 h4 {
+      font-size: 1.2rem; }
+    div.info-mas24 h5, div.info-mas24 p {
+      font-size: 0.9rem; }
+  div.mas25 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas25.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas25:hover div.info-mas25 {
+      visibility: visible; }
+    div.mas25:hover p {
+      color: #EFEBC8; }
+  div.info-mas25 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas25 h4 {
+      font-size: 1.2rem; }
+    div.info-mas25 h5, div.info-mas25 p {
+      font-size: 0.9rem; }
+  div.mas26 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas26.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas26:hover div.info-mas26 {
+      visibility: visible; }
+    div.mas26:hover p {
+      color: #EFEBC8; }
+  div.info-mas26 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas26 h4 {
+      font-size: 1.2rem; }
+    div.info-mas26 h5, div.info-mas26 p {
+      font-size: 0.9rem; }
+  div.mas27 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas27.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas27:hover div.info-mas27 {
+      visibility: visible; }
+    div.mas27:hover p {
+      color: #EFEBC8; }
+  div.info-mas27 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas27 h4 {
+      font-size: 1.2rem; }
+    div.info-mas27 h5, div.info-mas27 p {
+      font-size: 0.9rem; }
+  div.mas28 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas28.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas28:hover div.info-mas28 {
+      visibility: visible; }
+    div.mas28:hover p {
+      color: #EFEBC8; }
+  div.info-mas28 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas28 h4 {
+      font-size: 1.2rem; }
+    div.info-mas28 h5, div.info-mas28 p {
+      font-size: 0.9rem; }
+  div.mas29 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas29.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas29:hover div.info-mas29 {
+      visibility: visible; }
+    div.mas29:hover p {
+      color: #EFEBC8; }
+  div.info-mas29 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas29 h4 {
+      font-size: 1.2rem; }
+    div.info-mas29 h5, div.info-mas29 p {
+      font-size: 0.9rem; }
+  div.mas30 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas30.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas30:hover div.info-mas30 {
+      visibility: visible; }
+    div.mas30:hover p {
+      color: #EFEBC8; }
+  div.info-mas30 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas30 h4 {
+      font-size: 1.2rem; }
+    div.info-mas30 h5, div.info-mas30 p {
+      font-size: 0.9rem; }
+  div.mas31 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas31.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas31:hover div.info-mas31 {
+      visibility: visible; }
+    div.mas31:hover p {
+      color: #EFEBC8; }
+  div.info-mas31 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas31 h4 {
+      font-size: 1.2rem; }
+    div.info-mas31 h5, div.info-mas31 p {
+      font-size: 0.9rem; }
+  div.mas32 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas32.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas32:hover div.info-mas32 {
+      visibility: visible; }
+    div.mas32:hover p {
+      color: #EFEBC8; }
+  div.info-mas32 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas32 h4 {
+      font-size: 1.2rem; }
+    div.info-mas32 h5, div.info-mas32 p {
+      font-size: 0.9rem; }
+  div.mas33 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas33.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas33:hover div.info-mas33 {
+      visibility: visible; }
+    div.mas33:hover p {
+      color: #EFEBC8; }
+  div.info-mas33 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas33 h4 {
+      font-size: 1.2rem; }
+    div.info-mas33 h5, div.info-mas33 p {
+      font-size: 0.9rem; }
+  div.mas34 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas34.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas34:hover div.info-mas34 {
+      visibility: visible; }
+    div.mas34:hover p {
+      color: #EFEBC8; }
+  div.info-mas34 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas34 h4 {
+      font-size: 1.2rem; }
+    div.info-mas34 h5, div.info-mas34 p {
+      font-size: 0.9rem; }
+  div.mas35 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas35.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas35:hover div.info-mas35 {
+      visibility: visible; }
+    div.mas35:hover p {
+      color: #EFEBC8; }
+  div.info-mas35 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas35 h4 {
+      font-size: 1.2rem; }
+    div.info-mas35 h5, div.info-mas35 p {
+      font-size: 0.9rem; }
+  div.mas36 {
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/mas/mas36.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px; }
+    div.mas36:hover div.info-mas36 {
+      visibility: visible; }
+    div.mas36:hover p {
+      color: #EFEBC8; }
+  div.info-mas36 {
+    width: 300px;
+    height: 450px;
+    background-color: #2D575C;
+    border-radius: 10px;
+    visibility: hidden;
+    padding: 1rem; }
+    div.info-mas36 h4 {
+      font-size: 1.2rem; }
+    div.info-mas36 h5, div.info-mas36 p {
       font-size: 0.9rem; }
   div.secciones-biblioteca {
     background-color: #E9725D;

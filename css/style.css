@@ -157,9 +157,16 @@ div {
     display: grid;
     grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly; }
+    @media (max-width: 992px) {
+      div.valores img {
+        width: 200px; } }
     @media (max-width: 768px) {
       div.valores {
-        display: block; } }
+        display: block; }
+        div.valores img {
+          width: 300px; } }
+    div.valores img {
+      border-radius: 50%; }
   div.img-quienes-somos {
     text-align: center; }
   div.img-index1 {
@@ -3789,6 +3796,12 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly; }
+  section.escucha {
+    position: relative;
+    left: 100%; }
+    @media (max-width: 768px) {
+      section.escucha {
+        position: static; } }
   section.iframe {
     background-color: #E9725D;
     padding: 3rem; }
@@ -3858,23 +3871,18 @@ article#etiquetado ol {
   margin-bottom: 2rem;
   line-height: 2rem; }
 
-article.gestion-menstrual {
-  /* background-color: $gris-claro;
-        padding-top: 3rem;
-        padding-bottom: 2rem; */ }
-  article.gestion-menstrual h3 {
-    margin-top: 2rem; }
-  article.gestion-menstrual ol {
-    font-family: "Raleway", sans-serif;
-    line-height: 2rem; }
+article.gestion-menstrual h3 {
+  margin-top: 2rem; }
 
-article#accion-barrial {
-  /*  padding-top: 3rem;
-        padding-bottom: 1rem; */ }
-  article#accion-barrial h3 {
-    margin-top: 2rem; }
-  article#accion-barrial p {
-    line-height: 2rem; }
+article.gestion-menstrual ol {
+  font-family: "Raleway", sans-serif;
+  line-height: 2rem; }
+
+article#accion-barrial h3 {
+  margin-top: 2rem; }
+
+article#accion-barrial p {
+  line-height: 2rem; }
 
 article#trabajo-territorial {
   background-color: #1B4D41;

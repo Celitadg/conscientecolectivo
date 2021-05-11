@@ -182,8 +182,19 @@ div{
         display: grid;
         grid-template-columns: repeat(3, 30%);
         justify-content: space-evenly;
+        @media (max-width:992px){
+            img{
+                width: 200px;
+            }
+            }
         @media (max-width:768px){
         display: block;
+        img{
+            width: 300px;
+        }
+        }
+        img{
+            border-radius: 50%;
         }
     }
     &.img-quienes-somos{
@@ -572,6 +583,13 @@ section{
         align-items: center;
         justify-content: space-evenly;
     }
+    &.escucha{
+        position: relative;
+        left: 100%;
+        @media (max-width:768px){
+            position: static;
+            }
+    }
     &.iframe{
         background-color: $primary;
         padding: 3rem;
@@ -665,9 +683,6 @@ article{
         }
     }
     &.gestion-menstrual{
-        /* background-color: $gris-claro;
-        padding-top: 3rem;
-        padding-bottom: 2rem; */
         h3{
             margin-top: 2rem;
         }
@@ -677,8 +692,6 @@ article{
         }
     }
     &#accion-barrial{
-       /*  padding-top: 3rem;
-        padding-bottom: 1rem; */
         h3{
             margin-top: 2rem;
         }

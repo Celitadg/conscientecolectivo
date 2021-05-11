@@ -119,6 +119,34 @@ li{
 }
 
 div{
+    &.titulos-proyectos{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        background-color: $gris-claro;
+       /*  border-radius: 10px; */
+        padding: 0 2rem 1.5rem 2rem;
+        /* margin-bottom: 2rem; */
+    }
+    &#titulo-etiquetado{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    &#titulo-accion{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+    &.informacion-proyectos{
+        display: none;
+        background-color: $gris-claro;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 2rem;
+        img{
+            margin-bottom: 1rem;
+        }
+    }
     &.involucrate{
         display: flex;
         justify-content: center;
@@ -506,6 +534,9 @@ footer{
         text-transform: uppercase;
         font-size: 1.5rem;
     }
+    &.footer-proyectos{
+        margin-top: 2rem;
+    }
 }
 
 main{
@@ -634,9 +665,9 @@ article{
         }
     }
     &.gestion-menstrual{
-        background-color: $gris-claro;
+        /* background-color: $gris-claro;
         padding-top: 3rem;
-        padding-bottom: 2rem;
+        padding-bottom: 2rem; */
         h3{
             margin-top: 2rem;
         }
@@ -646,8 +677,8 @@ article{
         }
     }
     &#accion-barrial{
-        padding-top: 3rem;
-        padding-bottom: 1rem;
+       /*  padding-top: 3rem;
+        padding-bottom: 1rem; */
         h3{
             margin-top: 2rem;
         }

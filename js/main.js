@@ -1,3 +1,5 @@
+/* ------------------------------------Busquedas laborales--------------------------------------------------- */
+
 $(".trabajo-territorial").click(
     function(e){
         e.preventDefault();
@@ -136,4 +138,34 @@ $(".investigador-politico").click(
 );
 
 
+/* ------------------------------------Proyectos--------------------------------------------------- */
 
+$("#titulo-etiquetado, #informacion-etiquetado").click(
+    function(){
+        $("#informacion-etiquetado").toggle();
+        $("#informacion-gestion").hide();
+        $("#informacion-accion").hide();
+        $(".informacion-proyectos").css("margin-bottom", "2rem");
+    }
+);
+
+$("#titulo-gestion, #informacion-gestion").click(
+    function(){
+        $("#informacion-gestion").toggle();
+        $("#informacion-etiquetado").hide();
+        $("#informacion-accion").hide();
+        $(".informacion-proyectos").css("margin-bottom", "2rem");  
+    }
+);
+
+$("#titulo-accion, #informacion-accion").click(
+    function(){
+        $("#informacion-accion").toggle();
+        $("#informacion-gestion").hide();
+        $("#informacion-etiquetado").hide();
+        $(".informacion-proyectos").css("margin-bottom", "2rem");  
+        $("#titulo-accion").css({  
+            "border-bottom-right-radius": "0", 
+            "border-bottom-left-radius": "0" });
+    }
+);

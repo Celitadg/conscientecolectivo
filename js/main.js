@@ -167,5 +167,11 @@ $("#titulo-accion, #informacion-accion").click(
         $("#titulo-accion").css({  
             "border-bottom-right-radius": "0", 
             "border-bottom-left-radius": "0" });
+            $("#titulo-accion, #informacion-accion").click(
+                function(){
+                    $("#titulo-accion").css({  
+                        "border-bottom-right-radius": "10px", 
+                        "border-bottom-left-radius": "10px" });
+                });
     }
 );

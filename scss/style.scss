@@ -580,6 +580,24 @@ section{
             margin: 0;
         }
     }
+    &.toggle{
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        background-color: $gris-claro;
+        border-radius: 10px;
+        width: 11rem;
+        height: 2.5rem;
+        padding: 0.5rem 1rem;
+        h6{
+            text-align: left;
+        }
+        img{
+            &#toggle-derecha{
+                display: none;
+            }
+        }
+    }
 }
 
 article{

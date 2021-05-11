@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .indicadores button{
+    .indicadores button, .indicadores-doc button, .indicadores-consumo button, .indicadores-alimentancion button, .indicadores-peliculas button{
         background: #E9725D;;
         height: 0.3rem;
         width: 1rem;
@@ -24,7 +24,7 @@ div.titulo{
     }
 }
 
-.libros-destacados{
+.libros-destacados, .documentales-destacados, .consumo-destacados, .alimentacion-destacados, .peliculas-destacados{
     margin-bottom: 3rem;
     .contenedor-principal{
         display: flex;
@@ -50,7 +50,7 @@ div.titulo{
             right: 0;
         }
     }
-    .contenedor-carrousel{
+    .contenedor-carrousel, .contenedor-carrousel-doc, .contenedor-carrousel-consumo, .contenedor-carrousel-alimentacion, .contenedor-carrousel-peliculas{
         width: 100%;
         padding: 1rem 0;
         overflow: hidden;
@@ -58,7 +58,7 @@ div.titulo{
         .carrousel{
             display: flex;
             flex-wrap: nowrap;
-            .libro-carrousel{
+            .libro-carrousel, .documental-carrousel, .consumo-carrousel, .alimentacion-carrousel, .peliculas-carrousel{
                 min-width: 20%;
                 transition: .3 ease all;
                 box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.1);
@@ -77,15 +77,19 @@ div.titulo{
 }
 
 @media (max-width:576px){
-    .libros-destacados .contenedor-carrousel{
+    .libros-destacados .contenedor-carrousel, .documentales-destacados .contenedor-carrousel-doc, .consumo-destacados .contenedor-carrousel-consumo, .alimentacion-destacados .contenedor-carrousel-alimentacion, .peliculas-destacados .contenedor-carrousel-peliculas{
         overflow: visible;
     }
-    .libros-destacados .contenedor-carrousel .carrousel{
+    .libros-destacados .contenedor-carrousel .carrousel, .documentales-destacados .contenedor-carrousel-doc .carrousel, .consumo-destacados .contenedor-carrousel-consumo .carrousel, .alimentacion-destacados .contenedor-carrousel-alimentacion .carrousel, .peliculas-destacados .contenedor-carrousel-peliculas .carrousel{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
-    .libros-destacados .indicadores, .libros-destacados .flecha-izquierda, .libros-destacados .flecha-derecha{
+    .libros-destacados .indicadores, .libros-destacados .flecha-izquierda, .libros-destacados .flecha-derecha, .documentales-destacados .indicadores-doc, .documentales-destacados .flecha-izquierda, .documentales-destacados .flecha-derecha, .consumo-destacados .indicadores-consumo, .consumo-destacados .flecha-izquierda, .consumo-destacados .flecha-derecha, .alimentacion-destacados .indicadores-alimentacion, .alimentacion-destacados .flecha-izquierda, .alimentacion-destacados .flecha-derecha, .peliculas-destacados .indicadores-peliculas, .peliculas-destacados .flecha-izquierda, .peliculas-destacados .flecha-derecha{
         display: none;
     }
+}
+
+#seccion2{
+    display: none;
 }

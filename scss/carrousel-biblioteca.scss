@@ -60,7 +60,7 @@ div.titulo{
             flex-wrap: nowrap;
             .libro-carrousel, .documental-carrousel, .consumo-carrousel, .alimentacion-carrousel, .peliculas-carrousel{
                 min-width: 20%;
-                transition: .3 ease all;
+                transition: 1 ease all;
                 box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.1);
                 &.hover{
                     transform: scale(1.2);

@@ -3845,7 +3845,7 @@ section {
     section.toggle img#toggle-derecha {
       display: none; }
 
-article#documentales h3, article#peliculas h3, article#libros h3 {
+article#documentales h3, article#peliculas h3, article#libros h3, article#mas h3 {
   height: 4rem; }
 
 article#diferencial {

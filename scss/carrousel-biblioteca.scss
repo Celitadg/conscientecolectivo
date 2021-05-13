@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .indicadores button, .indicadores-doc button, .indicadores-consumo button, .indicadores-alimentancion button, .indicadores-peliculas button{
+    .indicadores button, .indicadores-doc button, .indicadores-consumo button, .indicadores-alimentancion button, .indicadores-peliculas button, .indicadores-corrupcion button, .indicadores-residuos button{
         background: #E9725D;;
         height: 0.3rem;
         width: 1rem;
@@ -24,7 +24,7 @@ div.titulo{
     }
 }
 
-.libros-destacados, .documentales-destacados, .consumo-destacados, .alimentacion-destacados, .peliculas-destacados{
+.libros-destacados, .documentales-destacados, .peliculas-destacados, .consumo-destacados, .alimentacion-destacados, .corrupcion-destacados, .residuos-destacados{
     margin-bottom: 3rem;
     .contenedor-principal{
         display: flex;
@@ -50,7 +50,7 @@ div.titulo{
             right: 0;
         }
     }
-    .contenedor-carrousel, .contenedor-carrousel-doc, .contenedor-carrousel-consumo, .contenedor-carrousel-alimentacion, .contenedor-carrousel-peliculas{
+    .contenedor-carrousel, .contenedor-carrousel-doc, .contenedor-carrousel-consumo, .contenedor-carrousel-alimentacion, .contenedor-carrousel-peliculas, .contenedor-carrousel-corrupcion, .contenedor-carrousel-residuos{
         width: 100%;
         padding: 1rem 0;
         overflow: hidden;
@@ -58,7 +58,7 @@ div.titulo{
         .carrousel{
             display: flex;
             flex-wrap: nowrap;
-            .libro-carrousel, .documental-carrousel, .consumo-carrousel, .alimentacion-carrousel, .peliculas-carrousel{
+            .libro-carrousel, .documental-carrousel, .consumo-carrousel, .alimentacion-carrousel, .peliculas-carrousel, .corrupcion-carrousel, .residuos-carrousel{
                 min-width: 20%;
                 transition: 1 ease all;
                 box-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.1);
@@ -77,15 +77,15 @@ div.titulo{
 }
 
 @media (max-width:576px){
-    .libros-destacados .contenedor-carrousel, .documentales-destacados .contenedor-carrousel-doc, .consumo-destacados .contenedor-carrousel-consumo, .alimentacion-destacados .contenedor-carrousel-alimentacion, .peliculas-destacados .contenedor-carrousel-peliculas{
+    .libros-destacados .contenedor-carrousel, .documentales-destacados .contenedor-carrousel-doc, .consumo-destacados .contenedor-carrousel-consumo, .alimentacion-destacados .contenedor-carrousel-alimentacion, .peliculas-destacados .contenedor-carrousel-peliculas, .corrupcion-destacados .contenedor-carrousel-corrupcion, .residuos-destacados .contenedor-carrousel-residuos{
         overflow: visible;
     }
-    .libros-destacados .contenedor-carrousel .carrousel, .documentales-destacados .contenedor-carrousel-doc .carrousel, .consumo-destacados .contenedor-carrousel-consumo .carrousel, .alimentacion-destacados .contenedor-carrousel-alimentacion .carrousel, .peliculas-destacados .contenedor-carrousel-peliculas .carrousel{
+    .libros-destacados .contenedor-carrousel .carrousel, .documentales-destacados .contenedor-carrousel-doc .carrousel, .consumo-destacados .contenedor-carrousel-consumo .carrousel, .alimentacion-destacados .contenedor-carrousel-alimentacion .carrousel, .peliculas-destacados .contenedor-carrousel-peliculas .carrousel, .corrupcion-destacados .contenedor-carrousel-corrupcion .carrousel, .residuos-destacados .contenedor-carrousel-residuos .carrousel{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
-    .libros-destacados .indicadores, .libros-destacados .flecha-izquierda, .libros-destacados .flecha-derecha, .documentales-destacados .indicadores-doc, .documentales-destacados .flecha-izquierda, .documentales-destacados .flecha-derecha, .consumo-destacados .indicadores-consumo, .consumo-destacados .flecha-izquierda, .consumo-destacados .flecha-derecha, .alimentacion-destacados .indicadores-alimentacion, .alimentacion-destacados .flecha-izquierda, .alimentacion-destacados .flecha-derecha, .peliculas-destacados .indicadores-peliculas, .peliculas-destacados .flecha-izquierda, .peliculas-destacados .flecha-derecha{
+    .libros-destacados .indicadores, .libros-destacados .flecha-izquierda, .libros-destacados .flecha-derecha, .documentales-destacados .indicadores-doc, .documentales-destacados .flecha-izquierda, .documentales-destacados .flecha-derecha, .consumo-destacados .indicadores-consumo, .consumo-destacados .flecha-izquierda, .consumo-destacados .flecha-derecha, .alimentacion-destacados .indicadores-alimentancion, .alimentacion-destacados .flecha-izquierda, .alimentacion-destacados .flecha-derecha, .peliculas-destacados .indicadores-peliculas, .peliculas-destacados .flecha-izquierda, .peliculas-destacados .flecha-derecha, .corrupcion-destacados .indicadores-corrupcion, .corrupcion-destacados .flecha-izquierda, .corrupcion-destacados .flecha-derecha, .residuos-destacados .indicadores-residuos, .residuos-destacados .flecha-izquierda, .residuos-destacados .flecha-derecha{
         display: none;
     }
 }

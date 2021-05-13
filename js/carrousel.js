@@ -305,3 +305,114 @@ filaAlimentacion.addEventListener("mouseleave", () => {
 });
 
 
+/* -------------------------Corrupcion--------------------------------------- */
+
+const filaCorrupcion = document.querySelector(".contenedor-carrousel-corrupcion");
+const flechaIzquierdaCorrupcion = document.querySelector("#flecha-izquierda-corrupcion");
+const flechaDerechaCorrupcion = document.querySelector("#flecha-derecha-corrupcion");
+
+flechaIzquierdaCorrupcion.addEventListener("click", () => {
+    filaCorrupcion.scrollLeft -= filaCorrupcion.offsetWidth;
+
+    const indicadorActivo = document.querySelector(".indicadores-corrupcion .activo");
+    if (indicadorActivo.previousSibling){
+        indicadorActivo.previousSibling.classList.add("activo");
+        indicadorActivo.classList.remove("activo");
+    }
+});
+
+flechaDerechaCorrupcion.addEventListener("click", () => {
+    filaCorrupcion.scrollLeft += filaCorrupcion.offsetWidth;
+
+    const indicadorActivo = document.querySelector(".indicadores-corrupcion .activo");
+    if (indicadorActivo.nextSibling){
+        indicadorActivo.nextSibling.classList.add("activo");
+        indicadorActivo.classList.remove("activo");
+    }
+});
+
+const corrupcion = document.querySelectorAll(".corrupcion-carrousel");
+const numeroPaginasCorrupcion = Math.ceil(corrupcion.length / 5);
+
+for (let i=0; i < numeroPaginasCorrupcion; i += 1){
+    const indicadorCorrupcion = document.createElement("button");
+    if (i === 0){
+        indicadorCorrupcion.classList.add("activo");
+    }
+    document.querySelector(".indicadores-corrupcion").appendChild(indicadorCorrupcion);
+    indicadorCorrupcion.addEventListener("click", (e) => {
+        filaCorrupcion.scrollLeft = i * filaCorrupcion.offsetWidth;
+        document.querySelector(".indicadores-corrupcion .activo").classList.remove("activo");
+        e.target.classList.add("activo");
+    })
+}
+
+corrupcion.forEach ((item) => {
+    item.addEventListener("mouseenter", (e) => {
+        const elemento = e.currentTarget;
+        setTimeout(() => {
+            corrupcion.forEach(item => item.classList.remove("hover"));
+            elemento.classList.add("hover");
+        }, 350);
+    })
+});
+
+filaCorrupcion.addEventListener("mouseleave", () => {
+    corrupcion.forEach(item => item.classList.remove("hover"));
+});
+
+/* -------------------------Residuos--------------------------------------- */
+
+const filaResiduos = document.querySelector(".contenedor-carrousel-residuos");
+const flechaIzquierdaResiduos = document.querySelector("#flecha-izquierda-residuos");
+const flechaDerechaResiduos = document.querySelector("#flecha-derecha-residuos");
+
+flechaIzquierdaResiduos.addEventListener("click", () => {
+    filaResiduos.scrollLeft -= filaResiduos.offsetWidth;
+
+    const indicadorActivo = document.querySelector(".indicadores-residuos .activo");
+    if (indicadorActivo.previousSibling){
+        indicadorActivo.previousSibling.classList.add("activo");
+        indicadorActivo.classList.remove("activo");
+    }
+});
+
+flechaDerechaResiduos.addEventListener("click", () => {
+    filaResiduos.scrollLeft += filaResiduos.offsetWidth;
+
+    const indicadorActivo = document.querySelector(".indicadores-residuos .activo");
+    if (indicadorActivo.nextSibling){
+        indicadorActivo.nextSibling.classList.add("activo");
+        indicadorActivo.classList.remove("activo");
+    }
+});
+
+const residuos = document.querySelectorAll(".residuos-carrousel");
+const numeroPaginasResiduos = Math.ceil(residuos.length / 5);
+
+for (let i=0; i < numeroPaginasResiduos; i += 1){
+    const indicadorResiduos = document.createElement("button");
+    if (i === 0){
+        indicadorResiduos.classList.add("activo");
+    }
+    document.querySelector(".indicadores-residuos").appendChild(indicadorResiduos);
+    indicadorResiduos.addEventListener("click", (e) => {
+        filaResiduos.scrollLeft = i * filaResiduos.offsetWidth;
+        document.querySelector(".indicadores-residuos .activo").classList.remove("activo");
+        e.target.classList.add("activo");
+    })
+}
+
+residuos.forEach ((item) => {
+    item.addEventListener("mouseenter", (e) => {
+        const elemento = e.currentTarget;
+        setTimeout(() => {
+            residuos.forEach(item => item.classList.remove("hover"));
+            elemento.classList.add("hover");
+        }, 350);
+    })
+});
+
+filaResiduos.addEventListener("mouseleave", () => {
+    residuos.forEach(item => item.classList.remove("hover"));
+});

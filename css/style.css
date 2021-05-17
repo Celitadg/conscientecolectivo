@@ -4271,7 +4271,7 @@ article#trabajo-territorial, article#logistica, article#recaudador-fondos, artic
     article#trabajo-territorial, article#logistica, article#recaudador-fondos, article#community-manager, article#editor-audiovisual, article#diseniador-grafico, article#asistente-twitter, article#investigador-politico {
       padding: 2rem; } }
 
-article#libros h2, article#libros h4 {
+article#libros h4 {
   text-transform: uppercase; }
 
 article#dona {
